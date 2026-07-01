@@ -1,0 +1,1382 @@
+
+Warning-[UNKWN_OPTVSIM] Unknown option passed
+  Ignoring unknown option '-vhdl' passed to 'vcs' and continuing compilation.
+
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Tue Mar  3 01:57:50 2026
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/RtoVR/RtoVR.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/bank_sram.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8_comb.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32_comb.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/intadd.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16_array.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16tofp32_multiplier.v'
+Parsing included file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32_defines.vh'.
+Parsing included file '../../global_defines.v'.
+Back to file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32_defines.vh'.
+Back to file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16tofp32_multiplier.v'.
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16mul.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/full_adder.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp32_m.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp16_m.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/IPR.sv'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/OPR.sv'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_aligner_5to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_normalizer_rounder_5to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_packer_5to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_unpacker_5to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/wallace_tree_5_inputs_5to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_adder_tree_final_pipeline_5to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_aligner_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_normalizer_rounder_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_packer_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_unpacker_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_adder_tree_8_inputs_pipeline_8to1.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp16_adder_pipeline.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v'
+
+Warning-[IPDW] Identifier previously declared
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v, 592
+  Second declaration for identifier 'w_has_discarded_bits_s3' ignored
+  Identifier 'w_has_discarded_bits_s3' previously declared as wire. 
+  [/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v,
+  477]
+
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpmul/fpmul.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int_array.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp16.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp32.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp16.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp32.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fptofp_array.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int_array.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp16.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp32.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int32tofp16.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/inttofp.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/logical/logical.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_up/shift_up.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_down/shift_down.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_inst_queen.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_dly_queen.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v'
+Parsing design file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/tb_aiacc_top.v'
+Top Level Modules:
+       delay_align_8to1
+       tb_aiacc_top
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 799
+gen_smi_iq_ur_rdata[0], "smi_iq #(.PARA_IQ_ID((14 + 0)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_rdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_rdata[0]),  .inst_keep (w_inst_keep_ur_rdata[0]),  .inst_valid (w_inst_valid_ur_rdata[0]),  .inst_id (w_inst_id_ur_rdata[0]),  .inst_rdy (w_inst_rdy_ur_rdata[0]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(14 + 0)]),  .rdi_iqsid (rdi_iqsid[(14 + 0)]),  .rdi_done (rdi_done[(14 + 0)]),  .rdi_iqeid (rdi_iqeid[(14 + 0)]),  .wri_data (wri_data_ur_rdata[0]),  .wri_vld (wri_vld[(14 + 0)]),  .wri_start (wri_start[(14 + 0)]),  .wri_end (wri_end[(14 + 0)]),  .wri_iqsid (wri_iqsid[(14 + 0)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 799
+gen_smi_iq_ur_rdata[1], "smi_iq #(.PARA_IQ_ID((14 + 1)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_rdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_rdata[1]),  .inst_keep (w_inst_keep_ur_rdata[1]),  .inst_valid (w_inst_valid_ur_rdata[1]),  .inst_id (w_inst_id_ur_rdata[1]),  .inst_rdy (w_inst_rdy_ur_rdata[1]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(14 + 1)]),  .rdi_iqsid (rdi_iqsid[(14 + 1)]),  .rdi_done (rdi_done[(14 + 1)]),  .rdi_iqeid (rdi_iqeid[(14 + 1)]),  .wri_data (wri_data_ur_rdata[1]),  .wri_vld (wri_vld[(14 + 1)]),  .wri_start (wri_start[(14 + 1)]),  .wri_end (wri_end[(14 + 1)]),  .wri_iqsid (wri_iqsid[(14 + 1)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 799
+gen_smi_iq_ur_rdata[2], "smi_iq #(.PARA_IQ_ID((14 + 2)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_rdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_rdata[2]),  .inst_keep (w_inst_keep_ur_rdata[2]),  .inst_valid (w_inst_valid_ur_rdata[2]),  .inst_id (w_inst_id_ur_rdata[2]),  .inst_rdy (w_inst_rdy_ur_rdata[2]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(14 + 2)]),  .rdi_iqsid (rdi_iqsid[(14 + 2)]),  .rdi_done (rdi_done[(14 + 2)]),  .rdi_iqeid (rdi_iqeid[(14 + 2)]),  .wri_data (wri_data_ur_rdata[2]),  .wri_vld (wri_vld[(14 + 2)]),  .wri_start (wri_start[(14 + 2)]),  .wri_end (wri_end[(14 + 2)]),  .wri_iqsid (wri_iqsid[(14 + 2)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 799
+gen_smi_iq_ur_rdata[3], "smi_iq #(.PARA_IQ_ID((14 + 3)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_rdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_rdata[3]),  .inst_keep (w_inst_keep_ur_rdata[3]),  .inst_valid (w_inst_valid_ur_rdata[3]),  .inst_id (w_inst_id_ur_rdata[3]),  .inst_rdy (w_inst_rdy_ur_rdata[3]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(14 + 3)]),  .rdi_iqsid (rdi_iqsid[(14 + 3)]),  .rdi_done (rdi_done[(14 + 3)]),  .rdi_iqeid (rdi_iqeid[(14 + 3)]),  .wri_data (wri_data_ur_rdata[3]),  .wri_vld (wri_vld[(14 + 3)]),  .wri_start (wri_start[(14 + 3)]),  .wri_end (wri_end[(14 + 3)]),  .wri_iqsid (wri_iqsid[(14 + 3)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v, 292
+smi_iq, "smi_iq_dly_queen #(.PARA_IQ_ID(PARA_IQ_ID), .SUB_IQ_NUM(SUB_IQ_NUM), .WR_INST_WIDTH(WR_INST_WIDTH), .WR_ADDR_WIDTH(WR_ADDR_WIDTH), .WR_DATA_WIDTH(WR_DATA_WIDTH), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .BITS_COND(BITS_COND), .BITS_DLY(BITS_DLY), .BIT_CODE(BIT_CODE), .EN_COND(EN_COND), .EN_DLY(EN_DLY), .EXTRA_ADDR(EXTRA_ADDR), .EXTRA_DATA(EXTRA_DATA), .DLY_INST_WIDTH(DLY_INST_WIDTH), .DLY_DATA_WIDTH(DLY_DATA_WIDTH)) u_smi_iq_dly_queen( .clk (clk),  .rst_n (rst_n),  .dly_data_valid (w_dly_data_valid),  .dly_data (w_dly_data),  .dly_queen_full (w_dly_queen_full),  .rdi_start (w_rdi_start_new),  .rdi_iqsid (w_rdi_iqsid_new),  .rdi_done (rdi_done),  .inst (inst),  .inst_keep (inst_keep),  .inst_valid (inst_valid),  .inst_id (inst_id),  .inst_rdy (inst_rdy),  .inst_rd ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 818
+gen_smi_iq_ur_wdata[0], "smi_iq #(.PARA_IQ_ID((18 + 0)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_wdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_wdata[0]),  .inst_keep (w_inst_keep_ur_wdata[0]),  .inst_valid (w_inst_valid_ur_wdata[0]),  .inst_id (w_inst_id_ur_wdata[0]),  .inst_rdy (w_inst_rdy_ur_wdata[0]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(18 + 0)]),  .rdi_iqsid (rdi_iqsid[(18 + 0)]),  .rdi_done (rdi_done[(18 + 0)]),  .rdi_iqeid (rdi_iqeid[(18 + 0)]),  .wri_data (wri_data_ur_wdata[0]),  .wri_vld (wri_vld[(18 + 0)]),  .wri_start (wri_start[(18 + 0)]),  .wri_end (wri_end[(18 + 0)]),  .wri_iqsid (wri_iqsid[(18 + 0)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 818
+gen_smi_iq_ur_wdata[1], "smi_iq #(.PARA_IQ_ID((18 + 1)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_wdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_wdata[1]),  .inst_keep (w_inst_keep_ur_wdata[1]),  .inst_valid (w_inst_valid_ur_wdata[1]),  .inst_id (w_inst_id_ur_wdata[1]),  .inst_rdy (w_inst_rdy_ur_wdata[1]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(18 + 1)]),  .rdi_iqsid (rdi_iqsid[(18 + 1)]),  .rdi_done (rdi_done[(18 + 1)]),  .rdi_iqeid (rdi_iqeid[(18 + 1)]),  .wri_data (wri_data_ur_wdata[1]),  .wri_vld (wri_vld[(18 + 1)]),  .wri_start (wri_start[(18 + 1)]),  .wri_end (wri_end[(18 + 1)]),  .wri_iqsid (wri_iqsid[(18 + 1)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 818
+gen_smi_iq_ur_wdata[2], "smi_iq #(.PARA_IQ_ID((18 + 2)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_wdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_wdata[2]),  .inst_keep (w_inst_keep_ur_wdata[2]),  .inst_valid (w_inst_valid_ur_wdata[2]),  .inst_id (w_inst_id_ur_wdata[2]),  .inst_rdy (w_inst_rdy_ur_wdata[2]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(18 + 2)]),  .rdi_iqsid (rdi_iqsid[(18 + 2)]),  .rdi_done (rdi_done[(18 + 2)]),  .rdi_iqeid (rdi_iqeid[(18 + 2)]),  .wri_data (wri_data_ur_wdata[2]),  .wri_vld (wri_vld[(18 + 2)]),  .wri_start (wri_start[(18 + 2)]),  .wri_end (wri_end[(18 + 2)]),  .wri_iqsid (wri_iqsid[(18 + 2)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 818
+gen_smi_iq_ur_wdata[3], "smi_iq #(.PARA_IQ_ID((18 + 3)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ur_wdata( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ur_wdata[3]),  .inst_keep (w_inst_keep_ur_wdata[3]),  .inst_valid (w_inst_valid_ur_wdata[3]),  .inst_id (w_inst_id_ur_wdata[3]),  .inst_rdy (w_inst_rdy_ur_wdata[3]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(18 + 3)]),  .rdi_iqsid (rdi_iqsid[(18 + 3)]),  .rdi_done (rdi_done[(18 + 3)]),  .rdi_iqeid (rdi_iqeid[(18 + 3)]),  .wri_data (wri_data_ur_wdata[3]),  .wri_vld (wri_vld[(18 + 3)]),  .wri_start (wri_start[(18 + 3)]),  .wri_end (wri_end[(18 + 3)]),  .wri_iqsid (wri_iqsid[(18 + 3)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[0], "smi_iq #(.PARA_IQ_ID((24 + 0)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[0]),  .inst_keep (w_inst_keep_rtovr[0]),  .inst_valid (w_inst_valid_rtovr[0]),  .inst_id (w_inst_id_rtovr[0]),  .inst_rdy (w_inst_rdy_rtovr[0]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 0)]),  .rdi_iqsid (rdi_iqsid[(24 + 0)]),  .rdi_done (rdi_done[(24 + 0)]),  .rdi_iqeid (rdi_iqeid[(24 + 0)]),  .wri_data (wri_data_rtovr[0]),  .wri_vld (wri_vld[(24 + 0)]),  .wri_start (wri_start[(24 + 0)]),  .wri_end (wri_end[(24 + 0)]),  .wri_iqsid (wri_iqsid[(24 + 0)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[1], "smi_iq #(.PARA_IQ_ID((24 + 1)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[1]),  .inst_keep (w_inst_keep_rtovr[1]),  .inst_valid (w_inst_valid_rtovr[1]),  .inst_id (w_inst_id_rtovr[1]),  .inst_rdy (w_inst_rdy_rtovr[1]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 1)]),  .rdi_iqsid (rdi_iqsid[(24 + 1)]),  .rdi_done (rdi_done[(24 + 1)]),  .rdi_iqeid (rdi_iqeid[(24 + 1)]),  .wri_data (wri_data_rtovr[1]),  .wri_vld (wri_vld[(24 + 1)]),  .wri_start (wri_start[(24 + 1)]),  .wri_end (wri_end[(24 + 1)]),  .wri_iqsid (wri_iqsid[(24 + 1)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[2], "smi_iq #(.PARA_IQ_ID((24 + 2)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[2]),  .inst_keep (w_inst_keep_rtovr[2]),  .inst_valid (w_inst_valid_rtovr[2]),  .inst_id (w_inst_id_rtovr[2]),  .inst_rdy (w_inst_rdy_rtovr[2]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 2)]),  .rdi_iqsid (rdi_iqsid[(24 + 2)]),  .rdi_done (rdi_done[(24 + 2)]),  .rdi_iqeid (rdi_iqeid[(24 + 2)]),  .wri_data (wri_data_rtovr[2]),  .wri_vld (wri_vld[(24 + 2)]),  .wri_start (wri_start[(24 + 2)]),  .wri_end (wri_end[(24 + 2)]),  .wri_iqsid (wri_iqsid[(24 + 2)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[3], "smi_iq #(.PARA_IQ_ID((24 + 3)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[3]),  .inst_keep (w_inst_keep_rtovr[3]),  .inst_valid (w_inst_valid_rtovr[3]),  .inst_id (w_inst_id_rtovr[3]),  .inst_rdy (w_inst_rdy_rtovr[3]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 3)]),  .rdi_iqsid (rdi_iqsid[(24 + 3)]),  .rdi_done (rdi_done[(24 + 3)]),  .rdi_iqeid (rdi_iqeid[(24 + 3)]),  .wri_data (wri_data_rtovr[3]),  .wri_vld (wri_vld[(24 + 3)]),  .wri_start (wri_start[(24 + 3)]),  .wri_end (wri_end[(24 + 3)]),  .wri_iqsid (wri_iqsid[(24 + 3)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[4], "smi_iq #(.PARA_IQ_ID((24 + 4)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[4]),  .inst_keep (w_inst_keep_rtovr[4]),  .inst_valid (w_inst_valid_rtovr[4]),  .inst_id (w_inst_id_rtovr[4]),  .inst_rdy (w_inst_rdy_rtovr[4]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 4)]),  .rdi_iqsid (rdi_iqsid[(24 + 4)]),  .rdi_done (rdi_done[(24 + 4)]),  .rdi_iqeid (rdi_iqeid[(24 + 4)]),  .wri_data (wri_data_rtovr[4]),  .wri_vld (wri_vld[(24 + 4)]),  .wri_start (wri_start[(24 + 4)]),  .wri_end (wri_end[(24 + 4)]),  .wri_iqsid (wri_iqsid[(24 + 4)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[5], "smi_iq #(.PARA_IQ_ID((24 + 5)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[5]),  .inst_keep (w_inst_keep_rtovr[5]),  .inst_valid (w_inst_valid_rtovr[5]),  .inst_id (w_inst_id_rtovr[5]),  .inst_rdy (w_inst_rdy_rtovr[5]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 5)]),  .rdi_iqsid (rdi_iqsid[(24 + 5)]),  .rdi_done (rdi_done[(24 + 5)]),  .rdi_iqeid (rdi_iqeid[(24 + 5)]),  .wri_data (wri_data_rtovr[5]),  .wri_vld (wri_vld[(24 + 5)]),  .wri_start (wri_start[(24 + 5)]),  .wri_end (wri_end[(24 + 5)]),  .wri_iqsid (wri_iqsid[(24 + 5)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[6], "smi_iq #(.PARA_IQ_ID((24 + 6)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[6]),  .inst_keep (w_inst_keep_rtovr[6]),  .inst_valid (w_inst_valid_rtovr[6]),  .inst_id (w_inst_id_rtovr[6]),  .inst_rdy (w_inst_rdy_rtovr[6]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 6)]),  .rdi_iqsid (rdi_iqsid[(24 + 6)]),  .rdi_done (rdi_done[(24 + 6)]),  .rdi_iqeid (rdi_iqeid[(24 + 6)]),  .wri_data (wri_data_rtovr[6]),  .wri_vld (wri_vld[(24 + 6)]),  .wri_start (wri_start[(24 + 6)]),  .wri_end (wri_end[(24 + 6)]),  .wri_iqsid (wri_iqsid[(24 + 6)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[7], "smi_iq #(.PARA_IQ_ID((24 + 7)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[7]),  .inst_keep (w_inst_keep_rtovr[7]),  .inst_valid (w_inst_valid_rtovr[7]),  .inst_id (w_inst_id_rtovr[7]),  .inst_rdy (w_inst_rdy_rtovr[7]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 7)]),  .rdi_iqsid (rdi_iqsid[(24 + 7)]),  .rdi_done (rdi_done[(24 + 7)]),  .rdi_iqeid (rdi_iqeid[(24 + 7)]),  .wri_data (wri_data_rtovr[7]),  .wri_vld (wri_vld[(24 + 7)]),  .wri_start (wri_start[(24 + 7)]),  .wri_end (wri_end[(24 + 7)]),  .wri_iqsid (wri_iqsid[(24 + 7)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[8], "smi_iq #(.PARA_IQ_ID((24 + 8)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[8]),  .inst_keep (w_inst_keep_rtovr[8]),  .inst_valid (w_inst_valid_rtovr[8]),  .inst_id (w_inst_id_rtovr[8]),  .inst_rdy (w_inst_rdy_rtovr[8]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 8)]),  .rdi_iqsid (rdi_iqsid[(24 + 8)]),  .rdi_done (rdi_done[(24 + 8)]),  .rdi_iqeid (rdi_iqeid[(24 + 8)]),  .wri_data (wri_data_rtovr[8]),  .wri_vld (wri_vld[(24 + 8)]),  .wri_start (wri_start[(24 + 8)]),  .wri_end (wri_end[(24 + 8)]),  .wri_iqsid (wri_iqsid[(24 + 8)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[9], "smi_iq #(.PARA_IQ_ID((24 + 9)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[9]),  .inst_keep (w_inst_keep_rtovr[9]),  .inst_valid (w_inst_valid_rtovr[9]),  .inst_id (w_inst_id_rtovr[9]),  .inst_rdy (w_inst_rdy_rtovr[9]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 9)]),  .rdi_iqsid (rdi_iqsid[(24 + 9)]),  .rdi_done (rdi_done[(24 + 9)]),  .rdi_iqeid (rdi_iqeid[(24 + 9)]),  .wri_data (wri_data_rtovr[9]),  .wri_vld (wri_vld[(24 + 9)]),  .wri_start (wri_start[(24 + 9)]),  .wri_end (wri_end[(24 + 9)]),  .wri_iqsid (wri_iqsid[(24 + 9)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[10], "smi_iq #(.PARA_IQ_ID((24 + 10)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[10]),  .inst_keep (w_inst_keep_rtovr[10]),  .inst_valid (w_inst_valid_rtovr[10]),  .inst_id (w_inst_id_rtovr[10]),  .inst_rdy (w_inst_rdy_rtovr[10]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 10)]),  .rdi_iqsid (rdi_iqsid[(24 + 10)]),  .rdi_done (rdi_done[(24 + 10)]),  .rdi_iqeid (rdi_iqeid[(24 + 10)]),  .wri_data (wri_data_rtovr[10]),  .wri_vld (wri_vld[(24 + 10)]),  .wri_start (wri_start[(24 + 10)]),  .wri_end (wri_end[(24 + 10)]),  .wri_iqsid (wri_iqsid[(24 + 10)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[11], "smi_iq #(.PARA_IQ_ID((24 + 11)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[11]),  .inst_keep (w_inst_keep_rtovr[11]),  .inst_valid (w_inst_valid_rtovr[11]),  .inst_id (w_inst_id_rtovr[11]),  .inst_rdy (w_inst_rdy_rtovr[11]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 11)]),  .rdi_iqsid (rdi_iqsid[(24 + 11)]),  .rdi_done (rdi_done[(24 + 11)]),  .rdi_iqeid (rdi_iqeid[(24 + 11)]),  .wri_data (wri_data_rtovr[11]),  .wri_vld (wri_vld[(24 + 11)]),  .wri_start (wri_start[(24 + 11)]),  .wri_end (wri_end[(24 + 11)]),  .wri_iqsid (wri_iqsid[(24 + 11)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[12], "smi_iq #(.PARA_IQ_ID((24 + 12)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[12]),  .inst_keep (w_inst_keep_rtovr[12]),  .inst_valid (w_inst_valid_rtovr[12]),  .inst_id (w_inst_id_rtovr[12]),  .inst_rdy (w_inst_rdy_rtovr[12]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 12)]),  .rdi_iqsid (rdi_iqsid[(24 + 12)]),  .rdi_done (rdi_done[(24 + 12)]),  .rdi_iqeid (rdi_iqeid[(24 + 12)]),  .wri_data (wri_data_rtovr[12]),  .wri_vld (wri_vld[(24 + 12)]),  .wri_start (wri_start[(24 + 12)]),  .wri_end (wri_end[(24 + 12)]),  .wri_iqsid (wri_iqsid[(24 + 12)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[13], "smi_iq #(.PARA_IQ_ID((24 + 13)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[13]),  .inst_keep (w_inst_keep_rtovr[13]),  .inst_valid (w_inst_valid_rtovr[13]),  .inst_id (w_inst_id_rtovr[13]),  .inst_rdy (w_inst_rdy_rtovr[13]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 13)]),  .rdi_iqsid (rdi_iqsid[(24 + 13)]),  .rdi_done (rdi_done[(24 + 13)]),  .rdi_iqeid (rdi_iqeid[(24 + 13)]),  .wri_data (wri_data_rtovr[13]),  .wri_vld (wri_vld[(24 + 13)]),  .wri_start (wri_start[(24 + 13)]),  .wri_end (wri_end[(24 + 13)]),  .wri_iqsid (wri_iqsid[(24 + 13)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[14], "smi_iq #(.PARA_IQ_ID((24 + 14)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[14]),  .inst_keep (w_inst_keep_rtovr[14]),  .inst_valid (w_inst_valid_rtovr[14]),  .inst_id (w_inst_id_rtovr[14]),  .inst_rdy (w_inst_rdy_rtovr[14]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 14)]),  .rdi_iqsid (rdi_iqsid[(24 + 14)]),  .rdi_done (rdi_done[(24 + 14)]),  .rdi_iqeid (rdi_iqeid[(24 + 14)]),  .wri_data (wri_data_rtovr[14]),  .wri_vld (wri_vld[(24 + 14)]),  .wri_start (wri_start[(24 + 14)]),  .wri_end (wri_end[(24 + 14)]),  .wri_iqsid (wri_iqsid[(24 + 14)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[15], "smi_iq #(.PARA_IQ_ID((24 + 15)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[15]),  .inst_keep (w_inst_keep_rtovr[15]),  .inst_valid (w_inst_valid_rtovr[15]),  .inst_id (w_inst_id_rtovr[15]),  .inst_rdy (w_inst_rdy_rtovr[15]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 15)]),  .rdi_iqsid (rdi_iqsid[(24 + 15)]),  .rdi_done (rdi_done[(24 + 15)]),  .rdi_iqeid (rdi_iqeid[(24 + 15)]),  .wri_data (wri_data_rtovr[15]),  .wri_vld (wri_vld[(24 + 15)]),  .wri_start (wri_start[(24 + 15)]),  .wri_end (wri_end[(24 + 15)]),  .wri_iqsid (wri_iqsid[(24 + 15)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[16], "smi_iq #(.PARA_IQ_ID((24 + 16)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[16]),  .inst_keep (w_inst_keep_rtovr[16]),  .inst_valid (w_inst_valid_rtovr[16]),  .inst_id (w_inst_id_rtovr[16]),  .inst_rdy (w_inst_rdy_rtovr[16]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 16)]),  .rdi_iqsid (rdi_iqsid[(24 + 16)]),  .rdi_done (rdi_done[(24 + 16)]),  .rdi_iqeid (rdi_iqeid[(24 + 16)]),  .wri_data (wri_data_rtovr[16]),  .wri_vld (wri_vld[(24 + 16)]),  .wri_start (wri_start[(24 + 16)]),  .wri_end (wri_end[(24 + 16)]),  .wri_iqsid (wri_iqsid[(24 + 16)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[17], "smi_iq #(.PARA_IQ_ID((24 + 17)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[17]),  .inst_keep (w_inst_keep_rtovr[17]),  .inst_valid (w_inst_valid_rtovr[17]),  .inst_id (w_inst_id_rtovr[17]),  .inst_rdy (w_inst_rdy_rtovr[17]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 17)]),  .rdi_iqsid (rdi_iqsid[(24 + 17)]),  .rdi_done (rdi_done[(24 + 17)]),  .rdi_iqeid (rdi_iqeid[(24 + 17)]),  .wri_data (wri_data_rtovr[17]),  .wri_vld (wri_vld[(24 + 17)]),  .wri_start (wri_start[(24 + 17)]),  .wri_end (wri_end[(24 + 17)]),  .wri_iqsid (wri_iqsid[(24 + 17)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[18], "smi_iq #(.PARA_IQ_ID((24 + 18)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[18]),  .inst_keep (w_inst_keep_rtovr[18]),  .inst_valid (w_inst_valid_rtovr[18]),  .inst_id (w_inst_id_rtovr[18]),  .inst_rdy (w_inst_rdy_rtovr[18]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 18)]),  .rdi_iqsid (rdi_iqsid[(24 + 18)]),  .rdi_done (rdi_done[(24 + 18)]),  .rdi_iqeid (rdi_iqeid[(24 + 18)]),  .wri_data (wri_data_rtovr[18]),  .wri_vld (wri_vld[(24 + 18)]),  .wri_start (wri_start[(24 + 18)]),  .wri_end (wri_end[(24 + 18)]),  .wri_iqsid (wri_iqsid[(24 + 18)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[19], "smi_iq #(.PARA_IQ_ID((24 + 19)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[19]),  .inst_keep (w_inst_keep_rtovr[19]),  .inst_valid (w_inst_valid_rtovr[19]),  .inst_id (w_inst_id_rtovr[19]),  .inst_rdy (w_inst_rdy_rtovr[19]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 19)]),  .rdi_iqsid (rdi_iqsid[(24 + 19)]),  .rdi_done (rdi_done[(24 + 19)]),  .rdi_iqeid (rdi_iqeid[(24 + 19)]),  .wri_data (wri_data_rtovr[19]),  .wri_vld (wri_vld[(24 + 19)]),  .wri_start (wri_start[(24 + 19)]),  .wri_end (wri_end[(24 + 19)]),  .wri_iqsid (wri_iqsid[(24 + 19)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[20], "smi_iq #(.PARA_IQ_ID((24 + 20)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[20]),  .inst_keep (w_inst_keep_rtovr[20]),  .inst_valid (w_inst_valid_rtovr[20]),  .inst_id (w_inst_id_rtovr[20]),  .inst_rdy (w_inst_rdy_rtovr[20]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 20)]),  .rdi_iqsid (rdi_iqsid[(24 + 20)]),  .rdi_done (rdi_done[(24 + 20)]),  .rdi_iqeid (rdi_iqeid[(24 + 20)]),  .wri_data (wri_data_rtovr[20]),  .wri_vld (wri_vld[(24 + 20)]),  .wri_start (wri_start[(24 + 20)]),  .wri_end (wri_end[(24 + 20)]),  .wri_iqsid (wri_iqsid[(24 + 20)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[21], "smi_iq #(.PARA_IQ_ID((24 + 21)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[21]),  .inst_keep (w_inst_keep_rtovr[21]),  .inst_valid (w_inst_valid_rtovr[21]),  .inst_id (w_inst_id_rtovr[21]),  .inst_rdy (w_inst_rdy_rtovr[21]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 21)]),  .rdi_iqsid (rdi_iqsid[(24 + 21)]),  .rdi_done (rdi_done[(24 + 21)]),  .rdi_iqeid (rdi_iqeid[(24 + 21)]),  .wri_data (wri_data_rtovr[21]),  .wri_vld (wri_vld[(24 + 21)]),  .wri_start (wri_start[(24 + 21)]),  .wri_end (wri_end[(24 + 21)]),  .wri_iqsid (wri_iqsid[(24 + 21)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[22], "smi_iq #(.PARA_IQ_ID((24 + 22)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[22]),  .inst_keep (w_inst_keep_rtovr[22]),  .inst_valid (w_inst_valid_rtovr[22]),  .inst_id (w_inst_id_rtovr[22]),  .inst_rdy (w_inst_rdy_rtovr[22]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 22)]),  .rdi_iqsid (rdi_iqsid[(24 + 22)]),  .rdi_done (rdi_done[(24 + 22)]),  .rdi_iqeid (rdi_iqeid[(24 + 22)]),  .wri_data (wri_data_rtovr[22]),  .wri_vld (wri_vld[(24 + 22)]),  .wri_start (wri_start[(24 + 22)]),  .wri_end (wri_end[(24 + 22)]),  .wri_iqsid (wri_iqsid[(24 + 22)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[23], "smi_iq #(.PARA_IQ_ID((24 + 23)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[23]),  .inst_keep (w_inst_keep_rtovr[23]),  .inst_valid (w_inst_valid_rtovr[23]),  .inst_id (w_inst_id_rtovr[23]),  .inst_rdy (w_inst_rdy_rtovr[23]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 23)]),  .rdi_iqsid (rdi_iqsid[(24 + 23)]),  .rdi_done (rdi_done[(24 + 23)]),  .rdi_iqeid (rdi_iqeid[(24 + 23)]),  .wri_data (wri_data_rtovr[23]),  .wri_vld (wri_vld[(24 + 23)]),  .wri_start (wri_start[(24 + 23)]),  .wri_end (wri_end[(24 + 23)]),  .wri_iqsid (wri_iqsid[(24 + 23)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[24], "smi_iq #(.PARA_IQ_ID((24 + 24)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[24]),  .inst_keep (w_inst_keep_rtovr[24]),  .inst_valid (w_inst_valid_rtovr[24]),  .inst_id (w_inst_id_rtovr[24]),  .inst_rdy (w_inst_rdy_rtovr[24]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 24)]),  .rdi_iqsid (rdi_iqsid[(24 + 24)]),  .rdi_done (rdi_done[(24 + 24)]),  .rdi_iqeid (rdi_iqeid[(24 + 24)]),  .wri_data (wri_data_rtovr[24]),  .wri_vld (wri_vld[(24 + 24)]),  .wri_start (wri_start[(24 + 24)]),  .wri_end (wri_end[(24 + 24)]),  .wri_iqsid (wri_iqsid[(24 + 24)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[25], "smi_iq #(.PARA_IQ_ID((24 + 25)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[25]),  .inst_keep (w_inst_keep_rtovr[25]),  .inst_valid (w_inst_valid_rtovr[25]),  .inst_id (w_inst_id_rtovr[25]),  .inst_rdy (w_inst_rdy_rtovr[25]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 25)]),  .rdi_iqsid (rdi_iqsid[(24 + 25)]),  .rdi_done (rdi_done[(24 + 25)]),  .rdi_iqeid (rdi_iqeid[(24 + 25)]),  .wri_data (wri_data_rtovr[25]),  .wri_vld (wri_vld[(24 + 25)]),  .wri_start (wri_start[(24 + 25)]),  .wri_end (wri_end[(24 + 25)]),  .wri_iqsid (wri_iqsid[(24 + 25)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[26], "smi_iq #(.PARA_IQ_ID((24 + 26)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[26]),  .inst_keep (w_inst_keep_rtovr[26]),  .inst_valid (w_inst_valid_rtovr[26]),  .inst_id (w_inst_id_rtovr[26]),  .inst_rdy (w_inst_rdy_rtovr[26]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 26)]),  .rdi_iqsid (rdi_iqsid[(24 + 26)]),  .rdi_done (rdi_done[(24 + 26)]),  .rdi_iqeid (rdi_iqeid[(24 + 26)]),  .wri_data (wri_data_rtovr[26]),  .wri_vld (wri_vld[(24 + 26)]),  .wri_start (wri_start[(24 + 26)]),  .wri_end (wri_end[(24 + 26)]),  .wri_iqsid (wri_iqsid[(24 + 26)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[27], "smi_iq #(.PARA_IQ_ID((24 + 27)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[27]),  .inst_keep (w_inst_keep_rtovr[27]),  .inst_valid (w_inst_valid_rtovr[27]),  .inst_id (w_inst_id_rtovr[27]),  .inst_rdy (w_inst_rdy_rtovr[27]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 27)]),  .rdi_iqsid (rdi_iqsid[(24 + 27)]),  .rdi_done (rdi_done[(24 + 27)]),  .rdi_iqeid (rdi_iqeid[(24 + 27)]),  .wri_data (wri_data_rtovr[27]),  .wri_vld (wri_vld[(24 + 27)]),  .wri_start (wri_start[(24 + 27)]),  .wri_end (wri_end[(24 + 27)]),  .wri_iqsid (wri_iqsid[(24 + 27)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[28], "smi_iq #(.PARA_IQ_ID((24 + 28)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[28]),  .inst_keep (w_inst_keep_rtovr[28]),  .inst_valid (w_inst_valid_rtovr[28]),  .inst_id (w_inst_id_rtovr[28]),  .inst_rdy (w_inst_rdy_rtovr[28]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 28)]),  .rdi_iqsid (rdi_iqsid[(24 + 28)]),  .rdi_done (rdi_done[(24 + 28)]),  .rdi_iqeid (rdi_iqeid[(24 + 28)]),  .wri_data (wri_data_rtovr[28]),  .wri_vld (wri_vld[(24 + 28)]),  .wri_start (wri_start[(24 + 28)]),  .wri_end (wri_end[(24 + 28)]),  .wri_iqsid (wri_iqsid[(24 + 28)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[29], "smi_iq #(.PARA_IQ_ID((24 + 29)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[29]),  .inst_keep (w_inst_keep_rtovr[29]),  .inst_valid (w_inst_valid_rtovr[29]),  .inst_id (w_inst_id_rtovr[29]),  .inst_rdy (w_inst_rdy_rtovr[29]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 29)]),  .rdi_iqsid (rdi_iqsid[(24 + 29)]),  .rdi_done (rdi_done[(24 + 29)]),  .rdi_iqeid (rdi_iqeid[(24 + 29)]),  .wri_data (wri_data_rtovr[29]),  .wri_vld (wri_vld[(24 + 29)]),  .wri_start (wri_start[(24 + 29)]),  .wri_end (wri_end[(24 + 29)]),  .wri_iqsid (wri_iqsid[(24 + 29)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[30], "smi_iq #(.PARA_IQ_ID((24 + 30)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[30]),  .inst_keep (w_inst_keep_rtovr[30]),  .inst_valid (w_inst_valid_rtovr[30]),  .inst_id (w_inst_id_rtovr[30]),  .inst_rdy (w_inst_rdy_rtovr[30]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 30)]),  .rdi_iqsid (rdi_iqsid[(24 + 30)]),  .rdi_done (rdi_done[(24 + 30)]),  .rdi_iqeid (rdi_iqeid[(24 + 30)]),  .wri_data (wri_data_rtovr[30]),  .wri_vld (wri_vld[(24 + 30)]),  .wri_start (wri_start[(24 + 30)]),  .wri_end (wri_end[(24 + 30)]),  .wri_iqsid (wri_iqsid[(24 + 30)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[31], "smi_iq #(.PARA_IQ_ID((24 + 31)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[31]),  .inst_keep (w_inst_keep_rtovr[31]),  .inst_valid (w_inst_valid_rtovr[31]),  .inst_id (w_inst_id_rtovr[31]),  .inst_rdy (w_inst_rdy_rtovr[31]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 31)]),  .rdi_iqsid (rdi_iqsid[(24 + 31)]),  .rdi_done (rdi_done[(24 + 31)]),  .rdi_iqeid (rdi_iqeid[(24 + 31)]),  .wri_data (wri_data_rtovr[31]),  .wri_vld (wri_vld[(24 + 31)]),  .wri_start (wri_start[(24 + 31)]),  .wri_end (wri_end[(24 + 31)]),  .wri_iqsid (wri_iqsid[(24 + 31)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[32], "smi_iq #(.PARA_IQ_ID((24 + 32)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[32]),  .inst_keep (w_inst_keep_rtovr[32]),  .inst_valid (w_inst_valid_rtovr[32]),  .inst_id (w_inst_id_rtovr[32]),  .inst_rdy (w_inst_rdy_rtovr[32]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 32)]),  .rdi_iqsid (rdi_iqsid[(24 + 32)]),  .rdi_done (rdi_done[(24 + 32)]),  .rdi_iqeid (rdi_iqeid[(24 + 32)]),  .wri_data (wri_data_rtovr[32]),  .wri_vld (wri_vld[(24 + 32)]),  .wri_start (wri_start[(24 + 32)]),  .wri_end (wri_end[(24 + 32)]),  .wri_iqsid (wri_iqsid[(24 + 32)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[33], "smi_iq #(.PARA_IQ_ID((24 + 33)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[33]),  .inst_keep (w_inst_keep_rtovr[33]),  .inst_valid (w_inst_valid_rtovr[33]),  .inst_id (w_inst_id_rtovr[33]),  .inst_rdy (w_inst_rdy_rtovr[33]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 33)]),  .rdi_iqsid (rdi_iqsid[(24 + 33)]),  .rdi_done (rdi_done[(24 + 33)]),  .rdi_iqeid (rdi_iqeid[(24 + 33)]),  .wri_data (wri_data_rtovr[33]),  .wri_vld (wri_vld[(24 + 33)]),  .wri_start (wri_start[(24 + 33)]),  .wri_end (wri_end[(24 + 33)]),  .wri_iqsid (wri_iqsid[(24 + 33)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[34], "smi_iq #(.PARA_IQ_ID((24 + 34)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[34]),  .inst_keep (w_inst_keep_rtovr[34]),  .inst_valid (w_inst_valid_rtovr[34]),  .inst_id (w_inst_id_rtovr[34]),  .inst_rdy (w_inst_rdy_rtovr[34]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 34)]),  .rdi_iqsid (rdi_iqsid[(24 + 34)]),  .rdi_done (rdi_done[(24 + 34)]),  .rdi_iqeid (rdi_iqeid[(24 + 34)]),  .wri_data (wri_data_rtovr[34]),  .wri_vld (wri_vld[(24 + 34)]),  .wri_start (wri_start[(24 + 34)]),  .wri_end (wri_end[(24 + 34)]),  .wri_iqsid (wri_iqsid[(24 + 34)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[35], "smi_iq #(.PARA_IQ_ID((24 + 35)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[35]),  .inst_keep (w_inst_keep_rtovr[35]),  .inst_valid (w_inst_valid_rtovr[35]),  .inst_id (w_inst_id_rtovr[35]),  .inst_rdy (w_inst_rdy_rtovr[35]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 35)]),  .rdi_iqsid (rdi_iqsid[(24 + 35)]),  .rdi_done (rdi_done[(24 + 35)]),  .rdi_iqeid (rdi_iqeid[(24 + 35)]),  .wri_data (wri_data_rtovr[35]),  .wri_vld (wri_vld[(24 + 35)]),  .wri_start (wri_start[(24 + 35)]),  .wri_end (wri_end[(24 + 35)]),  .wri_iqsid (wri_iqsid[(24 + 35)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[36], "smi_iq #(.PARA_IQ_ID((24 + 36)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[36]),  .inst_keep (w_inst_keep_rtovr[36]),  .inst_valid (w_inst_valid_rtovr[36]),  .inst_id (w_inst_id_rtovr[36]),  .inst_rdy (w_inst_rdy_rtovr[36]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 36)]),  .rdi_iqsid (rdi_iqsid[(24 + 36)]),  .rdi_done (rdi_done[(24 + 36)]),  .rdi_iqeid (rdi_iqeid[(24 + 36)]),  .wri_data (wri_data_rtovr[36]),  .wri_vld (wri_vld[(24 + 36)]),  .wri_start (wri_start[(24 + 36)]),  .wri_end (wri_end[(24 + 36)]),  .wri_iqsid (wri_iqsid[(24 + 36)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[37], "smi_iq #(.PARA_IQ_ID((24 + 37)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[37]),  .inst_keep (w_inst_keep_rtovr[37]),  .inst_valid (w_inst_valid_rtovr[37]),  .inst_id (w_inst_id_rtovr[37]),  .inst_rdy (w_inst_rdy_rtovr[37]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 37)]),  .rdi_iqsid (rdi_iqsid[(24 + 37)]),  .rdi_done (rdi_done[(24 + 37)]),  .rdi_iqeid (rdi_iqeid[(24 + 37)]),  .wri_data (wri_data_rtovr[37]),  .wri_vld (wri_vld[(24 + 37)]),  .wri_start (wri_start[(24 + 37)]),  .wri_end (wri_end[(24 + 37)]),  .wri_iqsid (wri_iqsid[(24 + 37)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[38], "smi_iq #(.PARA_IQ_ID((24 + 38)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[38]),  .inst_keep (w_inst_keep_rtovr[38]),  .inst_valid (w_inst_valid_rtovr[38]),  .inst_id (w_inst_id_rtovr[38]),  .inst_rdy (w_inst_rdy_rtovr[38]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 38)]),  .rdi_iqsid (rdi_iqsid[(24 + 38)]),  .rdi_done (rdi_done[(24 + 38)]),  .rdi_iqeid (rdi_iqeid[(24 + 38)]),  .wri_data (wri_data_rtovr[38]),  .wri_vld (wri_vld[(24 + 38)]),  .wri_start (wri_start[(24 + 38)]),  .wri_end (wri_end[(24 + 38)]),  .wri_iqsid (wri_iqsid[(24 + 38)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 865
+gen_smi_iq_rtovr[39], "smi_iq #(.PARA_IQ_ID((24 + 39)), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_rtovr( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_rtovr[39]),  .inst_keep (w_inst_keep_rtovr[39]),  .inst_valid (w_inst_valid_rtovr[39]),  .inst_id (w_inst_id_rtovr[39]),  .inst_rdy (w_inst_rdy_rtovr[39]),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[(24 + 39)]),  .rdi_iqsid (rdi_iqsid[(24 + 39)]),  .rdi_done (rdi_done[(24 + 39)]),  .rdi_iqeid (rdi_iqeid[(24 + 39)]),  .wri_data (wri_data_rtovr[39]),  .wri_vld (wri_vld[(24 + 39)]),  .wri_start (wri_start[(24 + 39)]),  .wri_end (wri_end[(24 + 39)]),  .wri_iqsid (wri_iqsid[(24 + 39)]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 600
+aiacc_top, "smi_iq #(.PARA_IQ_ID(0), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_intadd( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_intadd),  .inst_keep (w_inst_keep_intadd),  .inst_valid (w_inst_valid_intadd),  .inst_id (w_inst_id_intadd),  .inst_rdy (w_inst_rdy_intadd),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[0]),  .rdi_iqsid (rdi_iqsid[0]),  .rdi_done (rdi_done[0]),  .rdi_iqeid (rdi_iqeid[0]),  .wri_data (wri_data_intadd),  .wri_vld (wri_vld[0]),  .wri_start (wri_start[0]),  .wri_end (wri_end[0]),  .wri_iqsid (wri_iqsid[0]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 614
+aiacc_top, "smi_iq #(.PARA_IQ_ID(1), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_int8tofp16( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_int8tofp16),  .inst_keep (w_inst_keep_int8tofp16),  .inst_valid (w_inst_valid_int8tofp16),  .inst_id (w_inst_id_int8tofp16),  .inst_rdy (w_inst_rdy_int8tofp16),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[1]),  .rdi_iqsid (rdi_iqsid[1]),  .rdi_done (rdi_done[1]),  .rdi_iqeid (rdi_iqeid[1]),  .wri_data (wri_data_int8tofp16),  .wri_vld (wri_vld[1]),  .wri_start (wri_start[1]),  .wri_end (wri_end[1]),  .wri_iqsid (wri_iqsid[1]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 628
+aiacc_top, "smi_iq #(.PARA_IQ_ID(2), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fp16mul( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fp16mul),  .inst_keep (w_inst_keep_fp16mul),  .inst_valid (w_inst_valid_fp16mul),  .inst_id (w_inst_id_fp16mul),  .inst_rdy (w_inst_rdy_fp16mul),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[2]),  .rdi_iqsid (rdi_iqsid[2]),  .rdi_done (rdi_done[2]),  .rdi_iqeid (rdi_iqeid[2]),  .wri_data (wri_data_fp16mul),  .wri_vld (wri_vld[2]),  .wri_start (wri_start[2]),  .wri_end (wri_end[2]),  .wri_iqsid (wri_iqsid[2]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 642
+aiacc_top, "smi_iq #(.PARA_IQ_ID(3), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fp32addtree5to1( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fp32addtree5to1),  .inst_keep (w_inst_keep_fp32addtree5to1),  .inst_valid (w_inst_valid_fp32addtree5to1),  .inst_id (w_inst_id_fp32addtree5to1),  .inst_rdy (w_inst_rdy_fp32addtree5to1),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[3]),  .rdi_iqsid (rdi_iqsid[3]),  .rdi_done (rdi_done[3]),  .rdi_iqeid (rdi_iqeid[3]),  .wri_data (wri_data_fp32addtree5to1),  .wri_vld (wri_vld[3]),  .wri_start (wri_start[3]),  .wri_end (wri_end[3]),  .wri_iqsid (wri_iqsid[3]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 656
+aiacc_top, "smi_iq #(.PARA_IQ_ID(4), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fp32addtree8to1( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fp32addtree8to1),  .inst_keep (w_inst_keep_fp32addtree8to1),  .inst_valid (w_inst_valid_fp32addtree8to1),  .inst_id (w_inst_id_fp32addtree8to1),  .inst_rdy (w_inst_rdy_fp32addtree8to1),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[4]),  .rdi_iqsid (rdi_iqsid[4]),  .rdi_done (rdi_done[4]),  .rdi_iqeid (rdi_iqeid[4]),  .wri_data (wri_data_fp32addtree8to1),  .wri_vld (wri_vld[4]),  .wri_start (wri_start[4]),  .wri_end (wri_end[4]),  .wri_iqsid (wri_iqsid[4]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 670
+aiacc_top, "smi_iq #(.PARA_IQ_ID(5), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fpmul( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fpmul),  .inst_keep (w_inst_keep_fpmul),  .inst_valid (w_inst_valid_fpmul),  .inst_id (w_inst_id_fpmul),  .inst_rdy (w_inst_rdy_fpmul),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[5]),  .rdi_iqsid (rdi_iqsid[5]),  .rdi_done (rdi_done[5]),  .rdi_iqeid (rdi_iqeid[5]),  .wri_data (wri_data_fpmul),  .wri_vld (wri_vld[5]),  .wri_start (wri_start[5]),  .wri_end (wri_end[5]),  .wri_iqsid (wri_iqsid[5]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 684
+aiacc_top, "smi_iq #(.PARA_IQ_ID(6), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fpadd( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fpadd),  .inst_keep (w_inst_keep_fpadd),  .inst_valid (w_inst_valid_fpadd),  .inst_id (w_inst_id_fpadd),  .inst_rdy (w_inst_rdy_fpadd),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[6]),  .rdi_iqsid (rdi_iqsid[6]),  .rdi_done (rdi_done[6]),  .rdi_iqeid (rdi_iqeid[6]),  .wri_data (wri_data_fpadd),  .wri_vld (wri_vld[6]),  .wri_start (wri_start[6]),  .wri_end (wri_end[6]),  .wri_iqsid (wri_iqsid[6]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 698
+aiacc_top, "smi_iq #(.PARA_IQ_ID(7), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fptofp( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fptofp),  .inst_keep (w_inst_keep_fptofp),  .inst_valid (w_inst_valid_fptofp),  .inst_id (w_inst_id_fptofp),  .inst_rdy (w_inst_rdy_fptofp),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[7]),  .rdi_iqsid (rdi_iqsid[7]),  .rdi_done (rdi_done[7]),  .rdi_iqeid (rdi_iqeid[7]),  .wri_data (wri_data_fptofp),  .wri_vld (wri_vld[7]),  .wri_start (wri_start[7]),  .wri_end (wri_end[7]),  .wri_iqsid (wri_iqsid[7]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 712
+aiacc_top, "smi_iq #(.PARA_IQ_ID(8), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_inttoint( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_inttoint),  .inst_keep (w_inst_keep_inttoint),  .inst_valid (w_inst_valid_inttoint),  .inst_id (w_inst_id_inttoint),  .inst_rdy (w_inst_rdy_inttoint),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[8]),  .rdi_iqsid (rdi_iqsid[8]),  .rdi_done (rdi_done[8]),  .rdi_iqeid (rdi_iqeid[8]),  .wri_data (wri_data_inttoint),  .wri_vld (wri_vld[8]),  .wri_start (wri_start[8]),  .wri_end (wri_end[8]),  .wri_iqsid (wri_iqsid[8]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 726
+aiacc_top, "smi_iq #(.PARA_IQ_ID(9), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_fptoint( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_fptoint),  .inst_keep (w_inst_keep_fptoint),  .inst_valid (w_inst_valid_fptoint),  .inst_id (w_inst_id_fptoint),  .inst_rdy (w_inst_rdy_fptoint),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[9]),  .rdi_iqsid (rdi_iqsid[9]),  .rdi_done (rdi_done[9]),  .rdi_iqeid (rdi_iqeid[9]),  .wri_data (wri_data_fptoint),  .wri_vld (wri_vld[9]),  .wri_start (wri_start[9]),  .wri_end (wri_end[9]),  .wri_iqsid (wri_iqsid[9]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 740
+aiacc_top, "smi_iq #(.PARA_IQ_ID(10), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_inttofp( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_inttofp),  .inst_keep (w_inst_keep_inttofp),  .inst_valid (w_inst_valid_inttofp),  .inst_id (w_inst_id_inttofp),  .inst_rdy (w_inst_rdy_inttofp),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[10]),  .rdi_iqsid (rdi_iqsid[10]),  .rdi_done (rdi_done[10]),  .rdi_iqeid (rdi_iqeid[10]),  .wri_data (wri_data_inttofp),  .wri_vld (wri_vld[10]),  .wri_start (wri_start[10]),  .wri_end (wri_end[10]),  .wri_iqsid (wri_iqsid[10]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 754
+aiacc_top, "smi_iq #(.PARA_IQ_ID(11), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_logic( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_logic),  .inst_keep (w_inst_keep_logic),  .inst_valid (w_inst_valid_logic),  .inst_id (w_inst_id_logic),  .inst_rdy (w_inst_rdy_logic),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[11]),  .rdi_iqsid (rdi_iqsid[11]),  .rdi_done (rdi_done[11]),  .rdi_iqeid (rdi_iqeid[11]),  .wri_data (wri_data_logic),  .wri_vld (wri_vld[11]),  .wri_start (wri_start[11]),  .wri_end (wri_end[11]),  .wri_iqsid (wri_iqsid[11]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 768
+aiacc_top, "smi_iq #(.PARA_IQ_ID(12), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_shiftup( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_shiftup),  .inst_keep (w_inst_keep_shiftup),  .inst_valid (w_inst_valid_shiftup),  .inst_id (w_inst_id_shiftup),  .inst_rdy (w_inst_rdy_shiftup),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[12]),  .rdi_iqsid (rdi_iqsid[12]),  .rdi_done (rdi_done[12]),  .rdi_iqeid (rdi_iqeid[12]),  .wri_data (wri_data_shiftup),  .wri_vld (wri_vld[12]),  .wri_start (wri_start[12]),  .wri_end (wri_end[12]),  .wri_iqsid (wri_iqsid[12]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 782
+aiacc_top, "smi_iq #(.PARA_IQ_ID(13), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_shiftdn( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_shiftdn),  .inst_keep (w_inst_keep_shiftdn),  .inst_valid (w_inst_valid_shiftdn),  .inst_id (w_inst_id_shiftdn),  .inst_rdy (w_inst_rdy_shiftdn),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[13]),  .rdi_iqsid (rdi_iqsid[13]),  .rdi_done (rdi_done[13]),  .rdi_iqeid (rdi_iqeid[13]),  .wri_data (wri_data_shiftdn),  .wri_vld (wri_vld[13]),  .wri_start (wri_start[13]),  .wri_end (wri_end[13]),  .wri_iqsid (wri_iqsid[13]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 834
+aiacc_top, "smi_iq #(.PARA_IQ_ID(22), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_stb( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_stb),  .inst_keep (w_inst_keep_stb),  .inst_valid (w_inst_valid_stb),  .inst_id (w_inst_id_stb),  .inst_rdy (w_inst_rdy_stb),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[22]),  .rdi_iqsid (rdi_iqsid[22]),  .rdi_done (rdi_done[22]),  .rdi_iqeid (rdi_iqeid[22]),  .wri_data (wri_data_stb),  .wri_vld (wri_vld[22]),  .wri_start (wri_start[22]),  .wri_end (wri_end[22]),  .wri_iqsid (wri_iqsid[22]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 848
+aiacc_top, "smi_iq #(.PARA_IQ_ID(23), .SMI_IQ_AMOUNT(SMI_IQ_AMOUNT), .EN_COND(0)) u_smi_iq_ldb( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ldb),  .inst_keep (w_inst_keep_ldb),  .inst_valid (w_inst_valid_ldb),  .inst_id (w_inst_id_ldb),  .inst_rdy (w_inst_rdy_ldb),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[23]),  .rdi_iqsid (rdi_iqsid[23]),  .rdi_done (rdi_done[23]),  .rdi_iqeid (rdi_iqeid[23]),  .wri_data (wri_data_ldb),  .wri_vld (wri_vld[23]),  .wri_start (wri_start[23]),  .wri_end (wri_end[23]),  .wri_iqsid (wri_iqsid[23]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv, 583
+"user_register #(SMC_ID, 5'd16, 3'd4, 3'd4, , 2'd2, 4'd8, 1'b0, 1'b0, 1'b0) u_user_register( .i_clk (clk),  .i_rst_n (rst_n),  .i_smc_id (i_smc_id),  .i_cru_ur (cru_ur),  .i_uvr_wdata_0 (uvr_wdata_0_w),  .i_uvr_wdata_1 (uvr_wdata_1_w),  .i_uvr_wdata_2 (uvr_wdata_2_w),  .i_uvr_wdata_3 (uvr_wdata_3_w),  .o_ur_rdata_0 (ur_rdata_0_w),  .o_ur_rdata_1 (ur_rdata_1_w),  .o_ur_rdata_2 (ur_rdata_2_w),  .o_ur_rdata_3 (ur_rdata_3_w),  .o_cru_ur (cru_ur_o));"
+  The following 161-bit expression is connected to 160-bit port "i_cru_ur" of 
+  module "user_register", instance "u_user_register".
+  Expression: cru_ur
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v",
+  58
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv, 583
+"user_register #(SMC_ID, 5'd16, 3'd4, 3'd4, , 2'd2, 4'd8, 1'b0, 1'b0, 1'b0) u_user_register( .i_clk (clk),  .i_rst_n (rst_n),  .i_smc_id (i_smc_id),  .i_cru_ur (cru_ur),  .i_uvr_wdata_0 (uvr_wdata_0_w),  .i_uvr_wdata_1 (uvr_wdata_1_w),  .i_uvr_wdata_2 (uvr_wdata_2_w),  .i_uvr_wdata_3 (uvr_wdata_3_w),  .o_ur_rdata_0 (ur_rdata_0_w),  .o_ur_rdata_1 (ur_rdata_1_w),  .o_ur_rdata_2 (ur_rdata_2_w),  .o_ur_rdata_3 (ur_rdata_3_w),  .o_cru_ur (cru_ur_o));"
+  The following 161-bit expression is connected to 160-bit port "o_cru_ur" of 
+  module "user_register", instance "u_user_register".
+  Expression: cru_ur_o
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v",
+  58
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 834
+"smi_iq #(22, , , , , , , , , , , , , , , , 0, , , , , , , , , , , , , , , , , , , SMI_IQ_AMOUNT, , , , ) u_smi_iq_stb( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_stb),  .inst_keep (w_inst_keep_stb),  .inst_valid (w_inst_valid_stb),  .inst_id (w_inst_id_stb),  .inst_rdy (w_inst_rdy_stb),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[22]),  .rdi_iqsid (rdi_iqsid[22]),  .rdi_done (rdi_done[22]),  .rdi_iqeid (rdi_iqeid[22]),  .wri_data (wri_data_stb),  .wri_vld (wri_vld[22]),  .wri_start (wri_start[22]),  .wri_end (wri_end[22]),  .wri_iqsid (wri_iqsid[22]));"
+  The following 71-bit expression is connected to 136-bit port "inst" of 
+  module "smi_iq", instance "u_smi_iq_stb".
+  Expression: w_inst_stb
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v",
+  25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 834
+"smi_iq #(22, , , , , , , , , , , , , , , , 0, , , , , , , , , , , , , , , , , , , SMI_IQ_AMOUNT, , , , ) u_smi_iq_stb( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_stb),  .inst_keep (w_inst_keep_stb),  .inst_valid (w_inst_valid_stb),  .inst_id (w_inst_id_stb),  .inst_rdy (w_inst_rdy_stb),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[22]),  .rdi_iqsid (rdi_iqsid[22]),  .rdi_done (rdi_done[22]),  .rdi_iqeid (rdi_iqeid[22]),  .wri_data (wri_data_stb),  .wri_vld (wri_vld[22]),  .wri_start (wri_start[22]),  .wri_end (wri_end[22]),  .wri_iqsid (wri_iqsid[22]));"
+  The following 112-bit expression is connected to 177-bit port "wri_data" of 
+  module "smi_iq", instance "u_smi_iq_stb".
+  Expression: wri_data_stb
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v",
+  25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 848
+"smi_iq #(23, , , , , , , , , , , , , , , , 0, , , , , , , , , , , , , , , , , , , SMI_IQ_AMOUNT, , , , ) u_smi_iq_ldb( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ldb),  .inst_keep (w_inst_keep_ldb),  .inst_valid (w_inst_valid_ldb),  .inst_id (w_inst_id_ldb),  .inst_rdy (w_inst_rdy_ldb),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[23]),  .rdi_iqsid (rdi_iqsid[23]),  .rdi_done (rdi_done[23]),  .rdi_iqeid (rdi_iqeid[23]),  .wri_data (wri_data_ldb),  .wri_vld (wri_vld[23]),  .wri_start (wri_start[23]),  .wri_end (wri_end[23]),  .wri_iqsid (wri_iqsid[23]));"
+  The following 71-bit expression is connected to 142-bit port "inst" of 
+  module "smi_iq", instance "u_smi_iq_ldb".
+  Expression: w_inst_ldb
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v",
+  25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 848
+"smi_iq #(23, , , , , , , , , , , , , , , , 0, , , , , , , , , , , , , , , , , , , SMI_IQ_AMOUNT, , , , ) u_smi_iq_ldb( .clk (clk),  .rst_n (rst_n),  .inst (w_inst_ldb),  .inst_keep (w_inst_keep_ldb),  .inst_valid (w_inst_valid_ldb),  .inst_id (w_inst_id_ldb),  .inst_rdy (w_inst_rdy_ldb),  .inst_rdy_in (w_inst_rdy_all),  .rdi_start (rdi_start[23]),  .rdi_iqsid (rdi_iqsid[23]),  .rdi_done (rdi_done[23]),  .rdi_iqeid (rdi_iqeid[23]),  .wri_data (wri_data_ldb),  .wri_vld (wri_vld[23]),  .wri_start (wri_start[23]),  .wri_end (wri_end[23]),  .wri_iqsid (wri_iqsid[23]));"
+  The following 112-bit expression is connected to 183-bit port "wri_data" of 
+  module "smi_iq", instance "u_smi_iq_ldb".
+  Expression: wri_data_ldb
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v",
+  25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v, 884
+"SMC #(SMC_ID, IEEE_754) u_smc( .clk (clk),  .rst_n (rst_n),  .i_smc_id (i_smc_id),  .i_rounding_mode (i_rounding_mode),  .cru_intadd (w_cru_intadd),  .cru_fp16mul (w_cru_fp16mul),  .cru_fp16mul_s0123 (w_cru_fp16mul_s0123),  .cru_fp16mul_s4567 (w_cru_fp16mul_s4567),  .cru_fp32addtree5to1 (w_cru_fp32addtree5to1),  .cru_fp32addtree8to1 (w_cru_fp32addtree8to1),  .cru_fpadd (w_cru_fpadd),  .cru_fpmul (w_cru_fpmul),  .cru_fptoint (w_cru_fptoint),  .cru_fptofp (w_cru_fptofp),  .cru_inttoint (w_cru_inttoint),  .cru_inttofp (w_cru_inttofp),  .cru_logic (w_cru_logic),  .cru_int8tofp16 (w_cru_int8tofp16),  .cru_shiftup (w_cru_shiftup),  .crd_shiftdn (w_crd_shiftdn),  .cru_rtovr (w_cru_rtovr),  .cru_ur (w_cru_ur),  .cru_vin0 (w_cru_vin0),  .cru_vin1 (w_cru_vin1),   ... "
+  The following 160-bit expression is connected to 161-bit port "cru_ur" of 
+  module "SMC", instance "u_smc".
+  Expression: w_cru_ur
+  Instantiated module defined at: 
+  "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv",
+  76
+  Use +lint=PCWM for more details.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v, 211
+"w_layer2[3][(0 - 1)]"
+  The select index is out of declared bounds : [51:0].
+  In module instance : wallace_pos_sum_inst wallace_neg_sum_inst 
+  In module : wallace_tree_8_inputs_8to1.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v, 212
+"w_layer2[2][(0 - 1)]"
+  The select index is out of declared bounds : [51:0].
+  In module instance : wallace_pos_sum_inst wallace_neg_sum_inst 
+  In module : wallace_tree_8_inputs_8to1.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v, 290
+"w_exception_flags_fp32[4]"
+  The select index is out of declared bounds : [0:3].
+  In module instance : u_fpadd 
+  In module : fp_adder.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v, 290
+"w_exception_flags_fp32[5]"
+  The select index is out of declared bounds : [0:3].
+  In module instance : u_fpadd 
+  In module : fp_adder.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v, 290
+"w_exception_flags_fp32[6]"
+  The select index is out of declared bounds : [0:3].
+  In module instance : u_fpadd 
+  In module : fp_adder.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v, 290
+"w_exception_flags_fp32[7]"
+  The select index is out of declared bounds : [0:3].
+  In module instance : u_fpadd 
+  In module : fp_adder.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [53:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [53:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [53:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [42:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [42:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [42:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[7:0]"
+  The select index is out of declared bounds : [2:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [49:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[7:0]"
+  The select index is out of declared bounds : [2:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [49:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [2:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [49:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [2:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 210
+"rdi_data[((42 + WR_ADDR_WIDTH) + WR_DATA_WIDTH)]"
+  The select index is out of declared bounds : [41:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [41:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [41:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [41:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 273
+"w_new_code_tmp[(DLY_BIT_CODE - 1):1]"
+  The select index is out of declared bounds : [0:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 275
+"w_code[(DLY_BIT_CODE - 1):1]"
+  The select index is out of declared bounds : [0:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [43:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [43:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [43:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [45:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [45:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [45:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [47:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [47:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [47:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [46:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [46:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [46:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [9:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:16]"
+  The select index is out of declared bounds : [52:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [52:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [7:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [52:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [7:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:77]"
+  The select index is out of declared bounds : [68:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [7:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"rdi_data[(BIT_CODE - 1)-:83]"
+  The select index is out of declared bounds : [68:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+
+Warning-[SIOB] Select index out of bounds
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v, 229
+"w_operate_micro_addr[39:0]"
+  The select index is out of declared bounds : [7:0].
+  In module instance : u_smi_iq_iic 
+  In module : smi_iq_iic.
+
+VCS Coverage Metrics Release T-2022.06_Full64 Copyright (c) 1991-2022 by Synopsys Inc.
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+54 modules and 0 UDP read.
+recompiling module RtoVR
+recompiling module user_register
+recompiling module add8_comb
+recompiling module add32_comb
+recompiling module intadd
+recompiling module int8_to_fp16
+recompiling module int8_to_fp16_array
+recompiling module fp16tofp32_multiplier
+recompiling module full_adder
+recompiling module leading_zero_counter_fp32_m
+recompiling module leading_zero_counter_fp16_m
+recompiling module fp32_aligner_5to1
+recompiling module fp32_normalizer_rounder_5to1
+recompiling module fp32_packer_5to1
+recompiling module fp32_unpacker_5to1
+recompiling module wallace_tree_5_inputs_5to1
+recompiling module fp32_adder_tree_final_pipeline_5to1
+recompiling module delay_align_8to1
+recompiling module fp32_aligner_8to1
+recompiling module fp32_normalizer_rounder_8to1
+recompiling module fp32_packer_8to1
+recompiling module fp32_unpacker_8to1
+recompiling module wallace_tree_8_inputs_8to1
+recompiling module fp32_adder_tree_8_inputs_8to1
+recompiling module leading_zero_counter_fp16
+recompiling module fp16_adder_pipeline
+recompiling module leading_zero_counter_fp32
+recompiling module fp32_adder_pipeline
+recompiling module fp_adder
+recompiling module fp16_comparator
+recompiling module cmp_fp32
+recompiling module fpmul
+recompiling module fp16_multiplier
+recompiling module fp32_multiplier
+recompiling module fpto_int
+recompiling module fpto_int_array
+recompiling module fp16_to_fp32
+recompiling module fp32_to_fp16
+recompiling module fptofp_array
+recompiling module int_to_int
+recompiling module int_to_int_array
+recompiling module int2fp16
+recompiling module int2fp32
+recompiling module int32tofp16
+recompiling module inttofp
+recompiling module logical
+recompiling module shift_up
+recompiling module shift_down
+recompiling module smi_iq_iic
+recompiling module smi_iq_dly_queen
+50 of 54 modules done
+recompiling module smi_iq
+recompiling module SMC
+recompiling module aiacc_top
+recompiling module tb_aiacc_top
+All of 54 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/tools/synopsys/vcs/T-2022.06/linux64/lib -L/tools/synopsys/vcs/T-2022.06/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _195465_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -lreader_common /tools/synopsys/vcs/T-2022.06/linux64/lib/libBA.a -luclinative /tools/synopsys/vcs/T-2022.06/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /tools/synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o /tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 10.884 seconds to compile + .744 seconds to elab + .401 seconds to link
+Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)

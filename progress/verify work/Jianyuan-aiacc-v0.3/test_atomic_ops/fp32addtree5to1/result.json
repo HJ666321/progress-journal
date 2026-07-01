@@ -1,0 +1,11 @@
+{
+  "unit": "fp32addtree5to1",
+  "status": "PASS",
+  "length": 16,
+  "cycles": 16,
+  "max_abs_error": 8.668768611944756e-40,
+  "mean_abs_error": 5.093537749020348e-40,
+  "max_rel_error": 8.668768666127699e-30,
+  "duration_ms": 51.64647102355957,
+  "unit_dir": "test_atomic_ops/fp32addtree5to1"
+}

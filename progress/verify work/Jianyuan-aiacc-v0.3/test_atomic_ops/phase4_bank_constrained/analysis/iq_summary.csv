@@ -1,0 +1,12 @@
+iq_name,total,vld1,vld0,dly_min,dly_max
+FPADD,4,4,0,0,7
+FPMUL,4,4,0,0,2
+RtoVR-3,4,4,0,0,1
+RtoVR-35,5,5,0,0,7
+RtoVR-4,4,4,0,0,1
+RtoVR-5,4,4,0,0,6
+RtoVR-6,4,4,0,0,6
+UR-R0,4,4,0,0,5
+UR-R1,4,4,0,0,0
+UR-R2,4,4,0,0,0
+UR-W0,5,5,0,0,7

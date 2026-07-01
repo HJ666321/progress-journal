@@ -1,0 +1,96 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb
+syncTime = 1085000
+viewport = 0 23 2560 1377 0 0 536 2558
+activeNode = "tb_aiacc_top.dut.u_smc.u_fpadd"
+activeScope = "tb_aiacc_top.dut.u_smc.u_fpadd"
+activeFile = "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 47
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "tb_aiacc_top.dut.u_smc.u_fpadd"
+Scope2 = "tb_aiacc_top.dut.u_smc"
+Scope3 = "tb_aiacc_top.dut"
+Scope4 = "tb_aiacc_top"
+Scope5 = "delay_align_8to1"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "./sim_output_aiacc_top/simv.daidir/" 
+invokeDir = /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration
+[hb.sourceTab.1]
+scope = tb_aiacc_top.dut.u_smc.u_fpadd
+File = /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v
+Line = 48
+[nMemoryManager]
+WaveformFile = /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 30 2560 576 411 407
+primaryWindow = TRUE
+SessionFile = /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

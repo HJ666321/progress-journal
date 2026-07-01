@@ -1,0 +1,11 @@
+{
+  "unit": "fp16add",
+  "status": "PASS",
+  "length": 16,
+  "cycles": 19,
+  "max_abs_error": 0.0078125,
+  "mean_abs_error": 0.002685546875,
+  "max_rel_error": 0.0009643201483413577,
+  "duration_ms": 46.758413314819336,
+  "unit_dir": "test_atomic_ops/fp16add"
+}

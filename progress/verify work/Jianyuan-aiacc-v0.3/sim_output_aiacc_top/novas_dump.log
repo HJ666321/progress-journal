@@ -1,0 +1,431 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('./simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('./simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('./simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('./simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_begin_no_value_var_info('./simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('./simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('./simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('./simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('./simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('./simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('./simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('./simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('./simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('./simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('./simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('./simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('./simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('./simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('./simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('./simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: scsd_fgp_get_is_cpu_affinity_disabled('./simv: undefined symbol: scsd_fgp_get_is_cpu_affinity_disabled')
+ANF: vhdi_dt_get_type('./simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('./simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('./simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('./simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('./simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('./simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('./simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('./simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('./simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('./simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('./simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('./simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('./simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('./simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('./simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('./simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('./simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('./simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('./simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('./simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('./simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('./simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('./simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('./simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('./simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('./simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('./simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('./simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('./simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('./simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('./simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('./simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('./simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('./simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('./simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('./simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('./simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_get_fsdb_option('./simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('./simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('./simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('./simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('./simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('./simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('./simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('./simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('./simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('./simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('./simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('./simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('./simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('./simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: ./simv
+ option[1]: +MEM_DATA_SUBFOLDER=e2e_exp_taylor7
+ option[2]: +DATA_LIST_FILE=data_list.txt
+ option[3]: -cm
+ option[4]: line+cond+fsm+tgl+branch
+ option[5]: -cm_dir
+ option[6]: coverage_db
+ option[7]: +fsdbfile+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb
+ option[8]: -ucli
+ option[9]: -do
+ option[10]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/wave_fsdb_aiacc_top.do
+ option[11]: /tools/synopsys/vcs/T-2022.06/linux64/bin/vcs1
+ option[12]: -Mcc=gcc
+ option[13]: -Mcplusplus=g++
+ option[14]: -Masflags=
+ option[15]: -Mcfl= -pipe -fPIC -O -I/tools/synopsys/vcs/T-2022.06/include 
+ option[16]: -Mxllcflags=
+ option[17]: -Mxcflags= -pipe -fPIC -I/tools/synopsys/vcs/T-2022.06/include
+ option[18]: -Mldflags= -rdynamic 
+ option[19]: -Mout=simv
+ option[20]: -Mamsrun=
+ option[21]: -Mvcsaceobjs=
+ option[22]: -Mobjects= /tools/synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so /tools/synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so /tools/synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /tools/synopsys/vcs/T-2022.06/linux64/lib/libvfs.so 
+ option[23]: -Mexternalobj=
+ option[24]: -Msaverestoreobj=/tools/synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+ option[25]: -Mcrt0=
+ option[26]: -Mcrtn=
+ option[27]: -Mcsrc=
+ option[28]: -Msyslibs=/tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[29]: -full64
+ option[30]: -debug_access+all
+ option[31]: +vpi
+ option[32]: +vcsd1
+ option[33]: +itf+/tools/synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
+ option[34]: -kdb
+ option[35]: -Xufe=2steps
+ option[36]: +v2k
+ option[37]: -timescale=1ns/1ps
+ option[38]: +define+MEM_DATA_BASE=""/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops""
+ option[39]: +define+MEM_DATA_SUBFOLDER=""fpadd""
+ option[40]: +define+DATA_LIST_FILE=""data_list.txt""
+ option[41]: -cm
+ option[42]: line+cond+fsm+tgl+branch
+ option[43]: -cm_dir
+ option[44]: coverage_db
+ option[45]: +define+WAVES_FSDB
+ option[46]: +define+WAVES=fsdb
+ option[47]: -o
+ option[48]: simv
+ option[49]: -picarchive
+ option[50]: -P
+ option[51]: /tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+ option[52]: -fsdb
+ option[53]: -sverilog
+ option[54]: -gen_obj
+ option[55]: +incdir+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration
+ option[56]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/RtoVR/RtoVR.v
+ option[57]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/bank_sram.v
+ option[58]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v
+ option[59]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8_comb.v
+ option[60]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8.v
+ option[61]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32_comb.v
+ option[62]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32.v
+ option[63]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/intadd.v
+ option[64]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16.v
+ option[65]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16_array.v
+ option[66]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16tofp32_multiplier.v
+ option[67]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16mul.v
+ option[68]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/full_adder.v
+ option[69]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp32_m.v
+ option[70]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp16_m.v
+ option[71]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/IPR.sv
+ option[72]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/OPR.sv
+ option[73]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_aligner_5to1.v
+ option[74]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_normalizer_rounder_5to1.v
+ option[75]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_packer_5to1.v
+ option[76]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_unpacker_5to1.v
+ option[77]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/wallace_tree_5_inputs_5to1.v
+ option[78]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_adder_tree_final_pipeline_5to1.v
+ option[79]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v
+ option[80]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_aligner_8to1.v
+ option[81]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_normalizer_rounder_8to1.v
+ option[82]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_packer_8to1.v
+ option[83]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_unpacker_8to1.v
+ option[84]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v
+ option[85]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_adder_tree_8_inputs_pipeline_8to1.v
+ option[86]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp16_adder_pipeline.v
+ option[87]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v
+ option[88]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v
+ option[89]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpmul/fpmul.v
+ option[90]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int.v
+ option[91]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int_array.v
+ option[92]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp16.v
+ option[93]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp32.v
+ option[94]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp16.v
+ option[95]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp32.v
+ option[96]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fptofp_array.v
+ option[97]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int.v
+ option[98]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int_array.v
+ option[99]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp16.v
+ option[100]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp32.v
+ option[101]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int32tofp16.v
+ option[102]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/inttofp.v
+ option[103]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/logical/logical.v
+ option[104]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_up/shift_up.v
+ option[105]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_down/shift_down.v
+ option[106]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_inst_queen.v
+ option[107]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v
+ option[108]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_dly_queen.v
+ option[109]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v
+ option[110]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv
+ option[111]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v
+ option[112]: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/tb_aiacc_top.v
+ option[113]: -load
+ option[114]: /tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[115]: timescale=1ns/1ps
+Chronologic Simulation VCS Release T-2022.06_Full64
+Linux 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64
+CPU cores: 512
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8208 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked		64 kbytes
+maxproc		4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+XDG_SESSION_ID=10175
+HOSTNAME=amd9754
+SHELL=/bin/bash
+TERM=xterm
+HISTSIZE=1000
+SSH_CLIENT=172.16.20.99 62033 22
+DESIGNWARE_HOME=/tools/synopsys
+QTDIR=/usr/lib/qt-3.3
+QTINC=/usr/lib/qt-3.3/include
+SSH_TTY=/dev/pts/12
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=xuedong
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+LD_LIBRARY_PATH=/tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64
+NDS_HOME=/datahdd/riscv/xuedong/fpga_prj_back/inchi_x280_fpga
+PATH=/tools/others/Vitis_HLS/2022.1/bin:/tools/others/Model_Composer/2022.1/bin:/tools/others/Vivado/2022.1/bin:/tools/others/DocNav:/tools/others/Vitis_HLS/2022.1/bin:/tools/others/Model_Composer/2022.1/bin:/tools/others/Vivado/2022.1/bin:/tools/others/DocNav:/home/xuedong/miniforge3/bin:/usr/lib/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/tools/synopsys/vcs/T-2022.06/gui/dve/bin:/tools/synopsys/vcs/T-2022.06/bin:/tools/synopsys/verdi/T-2022.06/bin:/tools/synopsys/scl/2022.12/linux64/bin:/tools/synopsys/fpga/Q-2020.03/bin:/datahdd/riscv/chenxi_prj/VSCode-linux-x64:/home/xuedong/.local/bin:/home/xuedong/bin
+MAIL=/var/spool/mail/xuedong
+VERDI_HOME=/tools/synopsys/verdi/T-2022.06
+PWD=/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top
+VCS_HOME=/tools/synopsys/vcs/T-2022.06
+LANG=en_US.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+VCS_ARCH_OVERRIDE=linux
+XILINX_HLS=/tools/others/Vitis_HLS/2022.1
+LOGICAL_PATH=/datahdd/qinglongv100/chenxi/safty_SoC/corstone1000/sse710/logical
+LM_LICENSE_FILE=27000@amd9754
+XILINX_VIVADO=/tools/others/Vivado/2022.1
+HISTCONTROL=ignoreboth
+HOME=/home/xuedong
+SHLVL=2
+SynopsysList=/tools/synopsys
+QL_FPGA_HOME=/datahdd/qinglongv100/xuedong/inchi-soc/fpga/qinglong100_0123
+LOGNAME=xuedong
+QL_HOME=/datahdd/qinglongv100/xuedong/inchi-soc/fpga/qinglongv2/qinglong100_v2_0527
+QTLIB=/usr/lib/qt-3.3/lib
+SPYGLASS_HOME=/tools/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME
+SSH_CONNECTION=172.16.20.99 62033 172.16.30.17 22
+XDG_DATA_DIRS=/home/xuedong/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+MODULESHOME=/usr/share/Modules
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SCL_HOME=/tools/synopsys/scl/2022.12
+DISPLAY=localhost:10.0
+XDG_RUNTIME_DIR=/run/user/1009
+SYNPLIFY_HOME=/tools/synopsys/fpga/Q-2020.03
+ENV_HOME=/datahdd/qinglongv100/xuedong/inchi-soc/fpga/pcie_only
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=./simv
+OLDPWD=/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_STACK_EXEC=true
+VCS_EXEC_DONE=1
+LC_ALL=C
+DVE=/tools/synopsys/vcs/T-2022.06/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/home/xuedong/.amd9754-borrow.txt
+Runtime command line arguments:
+argv[0]=./simv
+argv[1]=+MEM_DATA_SUBFOLDER=e2e_exp_taylor7
+argv[2]=+DATA_LIST_FILE=data_list.txt
+argv[3]=-cm
+argv[4]=line+cond+fsm+tgl+branch
+argv[5]=-cm_dir
+argv[6]=coverage_db
+argv[7]=+fsdbfile+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb
+argv[8]=-ucli
+argv[9]=-do
+argv[10]=/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/wave_fsdb_aiacc_top.do
+287 profile - 100
+          CPU/Mem usage: 0.070 sys,  0.690 user,  492.65M mem
+288 Elapsed time:    0:00:09    Tue Mar  3 01:58:28 2026
+289 User CPU time used: 0 seconds
+290 System CPU time used: 0 seconds
+291 pliAppInit
+292 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+293 FSDB_GATE is set.
+294 FSDB_RTL is set.
+295 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+296 Enable Parallel Dumping.
+297 pliAppMiscSet: New Sim Round
+298 pliEntryInit
+299 LIBSSCORE=found /tools/synopsys/verdi/T-2022.06/share/PLI/lib/LINUXAMD64/libsscore_vcs202206.so through $NOVAS_HOME setting.
+300 FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+301 (C) 1996 - 2022 by Synopsys, Inc.
+302 DVDI_is_vir_unload_enabled is enable
+303 FSDB_VCS_ENABLE_NATIVE_VC is enable
+304 sps_call_fsdbDumpvars_vd_main at 0 : /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v(21)
+305 argv[0]: (0)
+306 argv[1]: (handle) tb_aiacc_top
+307 argv[2]: (+all)
+308 *Verdi* : Create FSDB file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb'
+309 [spi_vcs_vd_ppi_create_root]: no upf option
+310 compile option from '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/simv.daidir/vcs_rebuild'.
+311   "vcs '-full64' '-debug_access+all' '-kdb' '+v2k' '-sverilog' '-vhdl' '-timescale=1ns/1ps' '+incdir+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration' '+define+MEM_DATA_BASE="/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops"' '+define+MEM_DATA_SUBFOLDER="fpadd"' '+define+DATA_LIST_FILE="data_list.txt"' '-cm' 'line+cond+fsm+tgl+branch' '-cm_dir' 'coverage_db' '+define+WAVES_FSDB' '+define+WAVES=fsdb' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/RtoVR/RtoVR.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/bank_sram.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8_comb.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32_comb.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/intadd.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16_array.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16tofp32_multiplier.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16mul.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/full_adder.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp32_m.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp16_m.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/IPR.sv' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/OPR.sv' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_aligner_5to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_normalizer_rounder_5to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_packer_5to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_unpacker_5to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/wallace_tree_5_inputs_5to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_adder_tree_final_pipeline_5to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_aligner_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_normalizer_rounder_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_packer_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_unpacker_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_adder_tree_8_inputs_pipeline_8to1.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp16_adder_pipeline.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpmul/fpmul.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int_array.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp16.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp32.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp16.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp32.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fptofp_array.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int_array.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp16.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp32.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int32tofp16.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/inttofp.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/logical/logical.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_up/shift_up.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_down/shift_down.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_inst_queen.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_dly_queen.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v' '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/tb_aiacc_top.v' '-o' 'simv' 2>&1"
+312 *Verdi* : Begin traversing the scope (tb_aiacc_top), layer (0).
+313 *Verdi* : Enable +all dumping.
+314 *Verdi* : End of traversing.
+315 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.910 user,  598.16M mem
+                   incr: 0.010 sys,  0.220 user,  13.24M mem
+                   accu: 0.010 sys,  0.220 user,  13.24M mem
+              accu incr: 0.010 sys,  0.220 user,  13.24M mem
+
+          Count usage: 77006 var,  74046 idcode,  12065 callback
+                 incr: 77006 var,  74046 idcode,  12065 callback
+                 accu: 77006 var,  74046 idcode,  12065 callback
+            accu incr: 77006 var,  74046 idcode,  12065 callback
+316 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+317 User CPU time used: 0 seconds
+318 System CPU time used: 0 seconds
+319 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.090 sys,  0.910 user,  600.60M mem
+                   incr: 0.000 sys,  0.000 user,  2.44M mem
+                   accu: 0.010 sys,  0.220 user,  15.68M mem
+              accu incr: 0.000 sys,  0.000 user,  2.44M mem
+
+          Count usage: 77006 var,  74046 idcode,  12065 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 77006 var,  74046 idcode,  12065 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+320 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+321 User CPU time used: 0 seconds
+322 System CPU time used: 0 seconds
+323 sps_call_fsdbDumpMDA_vd_main at 0 : /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v(21)
+324 argv[0]: (0)
+325 argv[1]: (handle) tb_aiacc_top
+326 *Verdi* : Begin traversing the MDAs under scope (tb_aiacc_top), layer (0).
+327 *Verdi* : Enable +mda and +packedmda dumping.
+328 *Verdi* : End of traversing the MDAs.
+329 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.930 user,  600.60M mem
+                   incr: 0.000 sys,  0.010 user,  0.00M mem
+                   accu: 0.000 sys,  0.010 user,  0.00M mem
+              accu incr: 0.000 sys,  0.010 user,  0.00M mem
+
+          Count usage: 100992 var,  74046 idcode,  12065 callback
+                 incr: 23986 var,  0 idcode,  0 callback
+                 accu: 23986 var,  0 idcode,  0 callback
+            accu incr: 23986 var,  0 idcode,  0 callback
+330 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+331 User CPU time used: 0 seconds
+332 System CPU time used: 0 seconds
+333 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.090 sys,  0.930 user,  600.60M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 0.000 sys,  0.010 user,  0.00M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 100992 var,  74046 idcode,  12065 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 23986 var,  0 idcode,  0 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+334 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+335 User CPU time used: 0 seconds
+336 System CPU time used: 0 seconds
+337 sps_call_fsdbDumpsva_vd_main at 0 : /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v(21)
+338 *Verdi* : Begin traversing the SVA assertions, layer (0).
+339 *Verdi* : End of traversing the SVA assertions.
+340 pliAppHDL_DumpSVAComplete traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.930 user,  600.60M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 0.000 sys,  0.000 user,  0.00M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 100992 var,  74046 idcode,  12065 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 0 var,  0 idcode,  0 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+341 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+342 User CPU time used: 0 seconds
+343 System CPU time used: 0 seconds
+344 pliAppHDL_DumpSVAComplete: profile - 
+          CPU/Mem usage: 0.090 sys,  0.930 user,  600.60M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 0.000 sys,  0.000 user,  0.00M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 100992 var,  74046 idcode,  12065 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 0 var,  0 idcode,  0 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+345 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+346 User CPU time used: 0 seconds
+347 System CPU time used: 0 seconds
+348 End of simulation at 2236000
+349 Memory usage: 601.649 M
+350 Maximum resident set size: 236 MB
+351 Hard page faults: 0
+352 Soft page faults: 38710
+353 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+354 User CPU time used: 0 seconds
+355 System CPU time used: 0 seconds
+356 Begin FSDB profile info:
+357 FSDB Writer : bc1(11449) bcn(77867) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.140581) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+358 End FSDB profile info
+359 FSDB closed. Name: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb Size: 601394
+360 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+361                      - BlockUsed:1 Acquire:31225 BufferUsed:571124
+362                      - Flush:4 Expand:0 ProducerWait:0 ConsumerWait:0
+363                      - MainProducerTime:1.069077830 TotalConsumerTime:0.000000000
+364                      - ElapsedTime:0.820847000
+365 Producer   0 profile - BlockUsed:1 Acquire:31225 BufferUsed:571124
+366 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+367                      - BlockUsed:1 Acquire:31225 BufferUsed:571124
+368 SimExit
+369 Elapsed time:    0:00:10    Tue Mar  3 01:58:29 2026
+370 User CPU time used: 1 seconds
+371 System CPU time used: 0 seconds
+372 Sim process exit

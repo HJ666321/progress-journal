@@ -1,0 +1,18 @@
+===== ORIGINAL DATA (copied from source npz) =====
+# key: X
+# dtype: float32
+# shape: (4,)
+[0.000000000000000 0.500000000000000 1.000000000000000 -0.500000000000000]
+
+===== FP32 HEX DATA (PER ELEMENT, 32b) =====
+# key: X
+# dtype: float32 (per-element hex bit pattern)
+# shape: (4,)
+00000000 3F000000 3F800000 BF000000
+
+===== FP32 HEX DATA (PACKED 128b, first element in low bits) =====
+# key: X
+# dtype: float32 (packed to 128-bit hex)
+# shape: (4,)
+BF0000003F8000003F00000000000000
+

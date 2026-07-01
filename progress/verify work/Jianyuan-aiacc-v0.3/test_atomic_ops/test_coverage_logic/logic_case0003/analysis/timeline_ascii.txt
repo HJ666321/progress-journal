@@ -1,0 +1,9 @@
+iq_name        |  0  1  2  3  4  5
+----------------------------------
+LOGIC          |  .  .  X  X  .  .
+RtoVR-11       |  .  X  X  .  .  .
+RtoVR-12       |  .  X  X  .  .  .
+RtoVR-35       |  .  .  .  X  X  .
+UR-R0          |  X  X  .  .  .  .
+UR-R1          |  X  X  .  .  .  .
+UR-W0          |  .  .  .  .  X  X

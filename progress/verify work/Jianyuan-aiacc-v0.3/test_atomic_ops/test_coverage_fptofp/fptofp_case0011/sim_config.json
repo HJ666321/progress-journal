@@ -1,0 +1,41 @@
+{
+  "name": "test_atomic_fptofp_case0011",
+  "phase": 1,
+  "phase_name": "atomic_fptofp_case0011",
+  "inputs": {
+    "in0": {
+      "bank": 0,
+      "shape": [
+        16
+      ],
+      "dtype": "FP32"
+    }
+  },
+  "outputs": {
+    "out": {
+      "bank": 1,
+      "shape": [
+        16
+      ],
+      "dtype": "FP32"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "rtovr-7": "iq_rtovr-7.hex",
+    "fptofp": "iq_fptofp.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "ur-w0": "iq_ur-w0.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex"
+  },
+  "settings": {
+    "max_cycles": 82,
+    "output_banks": [
+      1
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

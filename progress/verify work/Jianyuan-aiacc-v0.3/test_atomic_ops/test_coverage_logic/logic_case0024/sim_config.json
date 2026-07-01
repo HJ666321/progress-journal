@@ -1,0 +1,51 @@
+{
+  "name": "test_atomic_logic_case0024",
+  "phase": 1,
+  "phase_name": "atomic_logic_case0024",
+  "inputs": {
+    "in0": {
+      "bank": 0,
+      "shape": [
+        16
+      ],
+      "dtype": "INT32"
+    },
+    "in1": {
+      "bank": 1,
+      "shape": [
+        16
+      ],
+      "dtype": "INT32"
+    }
+  },
+  "outputs": {
+    "out": {
+      "bank": 2,
+      "shape": [
+        16
+      ],
+      "dtype": "INT32"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "rtovr-11": "iq_rtovr-11.hex",
+    "rtovr-12": "iq_rtovr-12.hex",
+    "logic": "iq_logic.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "ur-w0": "iq_ur-w0.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex",
+    "1": "ur_data/bank1.hex"
+  },
+  "settings": {
+    "max_cycles": 132,
+    "output_banks": [
+      2
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

@@ -1,0 +1,19 @@
+inst_mem_fpadd /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_fpadd.hex
+inst_mem_fpmul /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_fpmul.hex
+inst_mem_rtovr[0] /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_rtovr-0.hex
+inst_mem_rtovr[1] /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_rtovr-1.hex
+inst_mem_rtovr[2] /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_rtovr-2.hex
+inst_mem_rtovr[3] /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_rtovr-3.hex
+inst_mem_rtovr[36] /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_rtovr-36.hex
+inst_mem_ur_rdata_0 /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_ur-r0.hex
+inst_mem_ur_rdata_1 /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_ur-r1.hex
+inst_mem_ur_rdata_2 /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_ur-r2.hex
+inst_mem_ur_rdata_3 /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_ur-r3.hex
+/home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_ur-r4.hex
+inst_mem_ur_wdata_1 /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/iq_ur-w1.hex
+dut.u_smc.u_user_register.bram_bank_inst[0].u_bank_sram.memory_array /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/ur_data/bank0.hex
+dut.u_smc.u_user_register.bram_bank_inst[1].u_bank_sram.memory_array /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/ur_data/bank1.hex
+dut.u_smc.u_user_register.bram_bank_inst[2].u_bank_sram.memory_array /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/ur_data/bank2.hex
+dut.u_smc.u_user_register.bram_bank_inst[3].u_bank_sram.memory_array /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/ur_data/bank3.hex
+dut.u_smc.u_user_register.bram_bank_inst[4].u_bank_sram.memory_array /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/ur_data/bank4.hex
+dut.u_smc.u_user_register.bram_bank_inst[5].u_bank_sram.memory_array /home/xuedong/aiacc_v1_test/A_Integration/test_atomic_ops/e2e_sin_v3/smc_0/ur_data/bank5.hex

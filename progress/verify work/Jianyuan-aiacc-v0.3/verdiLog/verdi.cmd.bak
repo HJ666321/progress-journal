@@ -1,0 +1,12 @@
+simSetSimulator "-vcssv" -exec "./sim_output_aiacc_top/simv" -args
+debImport "-dbdir" "./sim_output_aiacc_top/simv.daidir/"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBSelect "tb_aiacc_top" -win $_nTrace1
+srcSetScope "tb_aiacc_top" -delim "." -win $_nTrace1
+srcHBSelect "tb_aiacc_top" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "tb_aiacc_top.dut" -win $_nTrace1
+srcSetScope "tb_aiacc_top.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb_aiacc_top.dut" -win $_nTrace1
+wvCreateWindow
+debExit

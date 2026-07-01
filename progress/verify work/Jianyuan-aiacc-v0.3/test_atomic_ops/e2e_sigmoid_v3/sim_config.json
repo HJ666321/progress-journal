@@ -1,0 +1,531 @@
+{
+    "name": "e2e_sigmoid_v3",
+    "max_cycles": 60,
+    "iq_init": {
+        "ur-r0": "smc_0/iq_ur-r0.hex",
+        "rtovr-3": "smc_0/iq_rtovr-3.hex",
+        "rtovr-4": "smc_0/iq_rtovr-4.hex",
+        "fpmul": "smc_0/iq_fpmul.hex",
+        "ur-r1": "smc_0/iq_ur-r1.hex",
+        "ur-r2": "smc_0/iq_ur-r2.hex",
+        "rtovr-5": "smc_0/iq_rtovr-5.hex",
+        "rtovr-6": "smc_0/iq_rtovr-6.hex",
+        "fpadd": "smc_0/iq_fpadd.hex",
+        "ur-r3": "smc_0/iq_ur-r3.hex",
+        "ur-r4": "smc_0/iq_ur-r4.hex",
+        "ur-r5": "smc_0/iq_ur-r5.hex",
+        "rtovr-38": "smc_0/iq_rtovr-38.hex",
+        "ur-w0": "smc_0/iq_ur-w0.hex"
+    },
+    "ur_init": {
+        "5": "smc_0/ur_data/bank5.hex",
+        "4": "smc_0/ur_data/bank4.hex",
+        "3": "smc_0/ur_data/bank3.hex",
+        "1": "smc_0/ur_data/bank1.hex",
+        "0": "smc_0/ur_data/bank0.hex",
+        "6": "smc_0/ur_data/bank6.hex",
+        "2": "smc_0/ur_data/bank2.hex"
+    },
+    "tensors": [
+        {
+            "name": "X",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "input"
+        },
+        {
+            "name": "Y",
+            "bank": 4,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "output"
+        },
+        {
+            "name": "ElemWise_sigmoid_const_c3",
+            "bank": 1,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_const_c5",
+            "bank": 2,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_const_c0",
+            "bank": 3,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_const_c7",
+            "bank": 5,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_const_c1",
+            "bank": 6,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_x_vec",
+            "bank": 7,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_x_dup_vec",
+            "bank": 1,
+            "addr": 1,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_c7_vec",
+            "bank": 2,
+            "addr": 1,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_c5_vec",
+            "bank": 3,
+            "addr": 1,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_c3_vec",
+            "bank": 5,
+            "addr": 1,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_c1_vec",
+            "bank": 6,
+            "addr": 1,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_c0_vec",
+            "bank": 0,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_x_auto1_vec",
+            "bank": 4,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_x_auto2_vec",
+            "bank": 7,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_c7_p4_vec",
+            "bank": 1,
+            "addr": 5,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_c5_p6_vec",
+            "bank": 2,
+            "addr": 5,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_c3_p6_vec",
+            "bank": 3,
+            "addr": 5,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_c1_p6_vec",
+            "bank": 5,
+            "addr": 5,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_c0_p6_vec",
+            "bank": 6,
+            "addr": 5,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_p3_vec",
+            "bank": 0,
+            "addr": 8,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_p4_vec",
+            "bank": 4,
+            "addr": 8,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_z_vec",
+            "bank": 7,
+            "addr": 8,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_z_p3_vec",
+            "bank": 1,
+            "addr": 9,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_m1_vec",
+            "bank": 2,
+            "addr": 9,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_m1_p5_vec",
+            "bank": 3,
+            "addr": 9,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_t1_vec",
+            "bank": 5,
+            "addr": 9,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_auto2_p3_vec",
+            "bank": 6,
+            "addr": 9,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_auto2_p4_vec",
+            "bank": 0,
+            "addr": 12,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_z_r2_vec",
+            "bank": 4,
+            "addr": 12,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_z_r2_p3_vec",
+            "bank": 7,
+            "addr": 12,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_t1_p4_vec",
+            "bank": 1,
+            "addr": 13,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_m2_vec",
+            "bank": 2,
+            "addr": 13,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_m2_p5_vec",
+            "bank": 3,
+            "addr": 13,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_t2_vec",
+            "bank": 5,
+            "addr": 13,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_auto1_p3_vec",
+            "bank": 6,
+            "addr": 13,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_auto1_p4_vec",
+            "bank": 0,
+            "addr": 16,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_z_r1_vec",
+            "bank": 4,
+            "addr": 16,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_z_r1_p3_vec",
+            "bank": 7,
+            "addr": 16,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_t2_p4_vec",
+            "bank": 1,
+            "addr": 17,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_m3_vec",
+            "bank": 2,
+            "addr": 17,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_m3_p5_vec",
+            "bank": 3,
+            "addr": 17,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_t3_vec",
+            "bank": 5,
+            "addr": 17,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_x_dup_p3_vec",
+            "bank": 6,
+            "addr": 17,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_t3_p4_vec",
+            "bank": 0,
+            "addr": 20,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_m4_vec",
+            "bank": 4,
+            "addr": 20,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_rt_m4_p5_vec",
+            "bank": 7,
+            "addr": 20,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_y_w_vec",
+            "bank": 1,
+            "addr": 21,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_sigmoid_wdata_vec",
+            "bank": 2,
+            "addr": 21,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        }
+    ]
+}

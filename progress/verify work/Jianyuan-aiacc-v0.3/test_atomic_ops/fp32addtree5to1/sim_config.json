@@ -1,0 +1,73 @@
+{
+  "name": "test_atomic_fp32addtree5to1",
+  "phase": 1,
+  "phase_name": "atomic_fp32addtree5to1",
+  "inputs": {
+    "in0": {
+      "bank": 0,
+      "shape": [
+        4
+      ],
+      "dtype": "INT128"
+    },
+    "in1": {
+      "bank": 1,
+      "shape": [
+        4
+      ],
+      "dtype": "INT128"
+    },
+    "in2": {
+      "bank": 2,
+      "shape": [
+        4
+      ],
+      "dtype": "INT128"
+    },
+    "in3": {
+      "bank": 3,
+      "shape": [
+        4
+      ],
+      "dtype": "INT128"
+    }
+  },
+  "outputs": {
+    "out": {
+      "bank": 4,
+      "shape": [
+        8
+      ],
+      "dtype": "FP32"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "ur-r2": "iq_ur-r2.hex",
+    "ur-r3": "iq_ur-r3.hex",
+    "rtovr-24": "iq_rtovr-24.hex",
+    "rtovr-25": "iq_rtovr-25.hex",
+    "rtovr-26": "iq_rtovr-26.hex",
+    "rtovr-27": "iq_rtovr-27.hex",
+    "fp32addtree5to1": "iq_fp32addtree5to1.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "rtovr-36": "iq_rtovr-36.hex",
+    "ur-w0": "iq_ur-w0.hex",
+    "ur-w1": "iq_ur-w1.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex",
+    "1": "ur_data/bank1.hex",
+    "2": "ur_data/bank2.hex",
+    "3": "ur_data/bank3.hex"
+  },
+  "settings": {
+    "max_cycles": 70,
+    "output_banks": [
+      4
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

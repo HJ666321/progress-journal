@@ -1,0 +1,236 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 30 2560 576 411 407
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top_logic_case0011.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 367428.111888 499007.097902
+cursor 475000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 79
+; marker line index
+markerPos 63
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "fpadd"
+activeDirFile "" "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top_logic_case0011.fsdb"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_fpadd/i_clk
+addSignal -h 15 -holdScope i_rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_smc_id[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_dvr_fpadd_s0[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_dvr_fpadd_s1[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_cru_fpadd[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_rounding_mode[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_dr_fpadd_d[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_dr_fpadd_st[127:0]
+addSignal -h 15 -holdScope o_exception_flags[0:7]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_cru_fpadd_o[3:0]
+addGroup "inst_G2"
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/wri_vld[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope wri_start[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope wri_end[63:0]
+addSignal -h 15 -holdScope wri_data_ur_rdata[3:0]
+addSignal -h 15 -holdScope wri_data_ur_wdata[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rdi_start[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope rdi_done[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_5[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_6[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_35[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_17[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_18[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_35[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_36[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_37[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dbg_cru_rtovr_inst_38[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_cru_ur_rdata[0][11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_cru_ur_rdata[1][11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_cru_ur_wdata[0][27:0]
+addGroup "UR_G3"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/w_ur_re_0
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_rbank_0[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_raddr_0[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_ur_rdata_0[127:0]
+addSignal -h 15 -holdScope w_ur_re_1
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_rbank_1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_raddr_1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_ur_rdata_1[127:0]
+addSignal -h 15 -holdScope w_ur_re_2
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_rbank_2[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_raddr_2[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_ur_rdata_2[127:0]
+addSignal -h 15 -holdScope w_ur_re_3
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_rbank_3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_raddr_3[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_ur_rdata_3[127:0]
+addGroup "UR_wr_ram"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/w_ur_we_0
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbank_0[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_waddr_0[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbe_0[15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_rtovr/uvr_wdata_0[127:0]
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/w_ur_we_1
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbank_1[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_waddr_1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbe_1[15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_rtovr/uvr_wdata_1[127:0]
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/w_ur_we_2
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbank_2[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_waddr_2[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbe_2[15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_rtovr/uvr_wdata_2[127:0]
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/w_ur_we_3
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbank_3[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_waddr_3[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_ur_wbe_3[15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_rtovr/uvr_wdata_3[127:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_user_register/r_we_pipe[0:7]
+addSignal -h 15 -holdScope r_waddr_pipe[0:7]
+addSignal -h 15 -holdScope r_wbe_pipe[0:7]
+addSignal -expanded -h 15 -holdScope r_wdata_pipe[0:7]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[0][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[1][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[2][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[3][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[4][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[5][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[6][127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_wdata_pipe[7][127:0]
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/bram_bank_inst[2]/u_bank_sram/memory_array[0:255]
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_user_register/bram_bank_inst[3]/u_bank_sram/memory_array[0:255]
+addGroup "rtovr_sel_G5"
+addSignal -h 15 -UNSIGNED -UDEC /tb_aiacc_top/dut/u_smc/u_rtovr/dbg_sel_latch_dvr_fpadd_s0[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_dvr_fpadd_s1[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_dvr_int8tofp16_s0[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_dvr_int8tofp16_s1[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_uvr_wdata_0[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_uvr_wdata_1[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_uvr_wdata_2[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dbg_sel_latch_uvr_wdata_3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mv_out_vld_latch[39:0]
+addGroup "intadd_G6"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_intadd/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope src_reg0[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope src_reg1[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope src_reg2[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cru_intadd[12:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_smc_id[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dst_reg0[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dst_reg1[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope st[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_cru_intadd[11:0]
+addSignal -h 15 /tb_aiacc_top/dut/w_inst_valid_intadd
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_inst_intadd[11:0]
+addGroup "int8tofp16_G7"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_int8tofp16/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope dvr_int8tofp16_s0[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dvr_int8tofp16_s1[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cru_int8tofp16[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_int8tofp16_d0[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_int8tofp16_d1[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_int8tofp16_d2[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_int8tofp16_d3[127:0]
+addSignal -h 15 -holdScope int8_input[0:31]
+addSignal -h 15 -holdScope signed_mode
+addSignal -h 15 -holdScope fp16_output[0:31]
+addSignal -h 15 -holdScope instruction_valid
+addSignal -h 15 -holdScope cru_r[0]
+addGroup "fptofp_G8"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_fptofp/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope dvr_fptofp_s[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cru_fptofp[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_fptofp_d[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope smc_id[4:0]
+addSignal -h 15 -holdScope mode_fp32_to_fp32
+addSignal -h 15 -holdScope mode_fp16_to_fp16
+addSignal -h 15 -holdScope mode_fp16_to_fp32
+addSignal -h 15 -holdScope mode_fp32_to_fp16
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_fptofp/gen_fp16_to_fp32[0]/src_fp16[0][15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_fptofp/gen_fp16_to_fp32[1]/src_fp16[1][15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_fptofp/gen_fp16_to_fp32[2]/src_fp16[2][15:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_fptofp/gen_fp16_to_fp32[3]/src_fp16[3][15:0]
+addSignal -expanded -h 15 /tb_aiacc_top/dut/u_smc/u_fptofp/fp16_to_fp32_out[0:3]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fp16_to_fp32_out[0][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fp16_to_fp32_out[1][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fp16_to_fp32_out[2][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fp16_to_fp32_out[3][31:0]
+addGroup "fptoint_G9"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_fpto_int/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope dvr_fptoint_s_in[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cru_fptoint_in[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_fptoint_d_out[127:0]
+addGroup "inttoint"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_int_to_int/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope dvr_inttoint_s_in[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cru_inttoint_in[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dr_inttoint_d_out[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cru_inttoint_out[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope smc_id_in[4:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_aiacc_top/dut/u_smc/u_fpto_int/in_reg_0[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope in_reg_1[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope in_reg_2[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope in_reg_3[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope out_reg_0[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope out_reg_1[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope out_reg_2[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope out_reg_3[31:0]
+addGroup "inttofp_G11"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_inttofp/i_clk
+addSignal -h 15 -holdScope i_rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_smc_id[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_dvr_inttofp_s[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_cru_inttofp[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_dr_inttofp_d[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_cru_inttofp_o[5:0]
+addGroup "logical"
+addSignal -h 15 /tb_aiacc_top/dut/u_smc/u_logical/i_clk
+addSignal -h 15 -holdScope i_rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_smc_id[4:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_cru_logic[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_dvr_logic_s0[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_dvr_logic_s1[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_dvr_logic_st[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_dr_logic_d[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope o_cru_logic_o[5:0]
+addGroup "G13"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

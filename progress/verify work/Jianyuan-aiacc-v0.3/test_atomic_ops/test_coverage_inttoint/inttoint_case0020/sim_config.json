@@ -1,0 +1,41 @@
+{
+  "name": "test_atomic_inttoint_case0020",
+  "phase": 1,
+  "phase_name": "atomic_inttoint_case0020",
+  "inputs": {
+    "in0": {
+      "bank": 0,
+      "shape": [
+        16
+      ],
+      "dtype": "INT32"
+    }
+  },
+  "outputs": {
+    "out": {
+      "bank": 1,
+      "shape": [
+        32
+      ],
+      "dtype": "INT16"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "rtovr-8": "iq_rtovr-8.hex",
+    "inttoint": "iq_inttoint.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "ur-w0": "iq_ur-w0.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex"
+  },
+  "settings": {
+    "max_cycles": 82,
+    "output_banks": [
+      1
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

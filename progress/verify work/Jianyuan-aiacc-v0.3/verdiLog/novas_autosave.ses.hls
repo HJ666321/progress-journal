@@ -1,0 +1,3 @@
+	tb_aiacc_top.dut.w_inst_valid_fpmul	ID_RED5
+	tb_aiacc_top.dut.w_inst_valid_fpadd	ID_RED5
+	tb_aiacc_top.dut.w_inst_valid_ur_rdata	ID_RED5

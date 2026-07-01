@@ -1,0 +1,51 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 466944 bytes [need 456K bytes if disable swap]
+
+used block: 22 [memory(22) file(0)]
+                 [ 8K(17) 64K(5) { total 456K bytes } ]
+overhead: (9640) bytes for (22) blocks [Average: (438) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 5(times) 258K(bytes) [40K bytes compressed data from file]
+access => 252996(times) 2018M(bytes)
+          [hit ratio: 99.998%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/verdiLog)
+used swap file number: (6)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (7)
+closeHead: (1)
+closeTail: (6)
+openCnt: (6)
+fid(6): fd(1073741828) fileName(/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/simv.daidir/kdb.elab++/work.lib++/fp_adder_rtl.v.tdc)
+	size(23213) lastModTime(1772177444) curModTime(1772177444)
+	mode(rb)	hot(0) cool(5) pos(0)
+fid(5): fd(1073741827) fileName(/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/simv.daidir/kdb.elab++/work.lib++/SMC.sv.tdc)
+	size(22009) lastModTime(1772177444) curModTime(1772177444)
+	mode(rb)	hot(6) cool(4) pos(0)
+fid(4): fd(1073741826) fileName(/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/simv.daidir/kdb.elab++/work.lib++/aiacc_top.v.tdc)
+	size(38970) lastModTime(1772177444) curModTime(1772177444)
+	mode(rb)	hot(5) cool(3) pos(0)
+fid(3): fd(1073741825) fileName(/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/simv.daidir/kdb.elab++/work.lib++/tb_aiacc_top.v.tdc)
+	size(51493) lastModTime(1772177444) curModTime(1772177444)
+	mode(rb)	hot(4) cool(2) pos(0)
+fid(2): fd(25) fileName(/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/verdiLog/_swap_0001#279712030#102829)
+	size(0) lastModTime(0) curModTime(1772177500)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/simv.daidir/kdb.elab++/work.lib++/delay_align_8to1.v.tdc)
+	size(3105) lastModTime(1772177444) curModTime(1772177444)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x1a91c4e0) pre(0x1a90fbe0) next((nil))
+version(200506)
+date(Apr 25 2022 02:34:42)

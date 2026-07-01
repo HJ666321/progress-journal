@@ -1,0 +1,227 @@
+2        
+0 fp32_defines.vh
+0 /tools/synopsys/vcs/T-2022.06/etc/systemverilog/fp32_defines.vh
+102
++define+DATA_LIST_FILE=""data_list.txt""
++define+MEM_DATA_BASE=""/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops""
++define+MEM_DATA_SUBFOLDER=""fpadd""
++define+WAVES=fsdb
++define+WAVES_FSDB
++incdir+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration
++itf+/tools/synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/tools/synopsys/vcs/T-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /tools/synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so /tools/synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so /tools/synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /tools/synopsys/vcs/T-2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/tools/synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/tools/synopsys/vcs/T-2022.06/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-cm
+-cm_dir
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-o simv
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/tools/synopsys/vcs/T-2022.06/linux64/bin/vcs1
+line+cond+fsm+tgl+branch
+coverage_db
+simv
+/tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/RtoVR/RtoVR.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/bank_sram.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8_comb.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32_comb.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/intadd.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16_array.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16tofp32_multiplier.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16mul.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/full_adder.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp32_m.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp16_m.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/IPR.sv
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/OPR.sv
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_aligner_5to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_normalizer_rounder_5to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_packer_5to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_unpacker_5to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/wallace_tree_5_inputs_5to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_adder_tree_final_pipeline_5to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_aligner_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_normalizer_rounder_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_packer_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_unpacker_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_adder_tree_8_inputs_pipeline_8to1.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp16_adder_pipeline.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpmul/fpmul.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int_array.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp16.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp32.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp16.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp32.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fptofp_array.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int_array.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp16.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp32.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int32tofp16.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/inttofp.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/logical/logical.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_up/shift_up.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_down/shift_down.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_inst_queen.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_dly_queen.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v
+/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/tb_aiacc_top.v
+48
+XILINX_VIVADO=/tools/others/Vivado/2022.1
+XILINX_HLS=/tools/others/Vitis_HLS/2022.1
+XDG_SESSION_ID=10175
+XDG_RUNTIME_DIR=/run/user/1009
+XDG_DATA_DIRS=/home/xuedong/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VERDI_HOME=/tools/synopsys/verdi/T-2022.06
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/tools/synopsys/vcs/T-2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/tools/synopsys/vcs/T-2022.06/linux64
+SynopsysList=/tools/synopsys
+SYNPLIFY_HOME=/tools/synopsys/fpga/Q-2020.03
+SSH_TTY=/dev/pts/12
+SSH_CONNECTION=172.16.20.99 62033 172.16.30.17 22
+SSH_CLIENT=172.16.20.99 62033 22
+SPYGLASS_HOME=/tools/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_CLANG_PATH=/tools/synopsys/vcs/T-2022.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/tools/synopsys/scl/2022.12
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib/qt-3.3/lib
+QTINC=/usr/lib/qt-3.3/include
+QTDIR=/usr/lib/qt-3.3
+QL_HOME=/datahdd/qinglongv100/xuedong/inchi-soc/fpga/qinglongv2/qinglong100_v2_0527
+QL_FPGA_HOME=/datahdd/qinglongv100/xuedong/inchi-soc/fpga/qinglong100_0123
+OVA_UUM=0
+NDS_HOME=/datahdd/riscv/xuedong/fpga_prj_back/inchi_x280_fpga
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOGICAL_PATH=/datahdd/qinglongv100/chenxi/safty_SoC/corstone1000/sse710/logical
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HISTCONTROL=ignoreboth
+ENV_HOME=/datahdd/qinglongv100/xuedong/inchi-soc/fpga/pcie_only
+DESIGNWARE_HOME=/tools/synopsys
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+0
+0
+62
+1765778395 ../../global_defines.v
+1769160337 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32_defines.vh
+1772156951 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/tb_aiacc_top.v
+1770016273 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/aiacc_top.v
+1770026633 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/SMC.sv
+1770368748 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq.v
+1770368748 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_dly_queen.v
+1770368748 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_iic.v
+1770368748 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/smi_iq/smi_iq_inst_queen.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_down/shift_down.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/shift_up/shift_up.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/logical/logical.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/inttofp.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int32tofp16.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp32.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/inttofp/int2fp16.v
+1768892835 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int_array.v
+1768892835 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int_to_int/int_to_int.v
+1770174676 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fptofp_array.v
+1770174676 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp32.v
+1770174676 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp32_to_fp16.v
+1770174676 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp32.v
+1770174676 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fptofp/fp16_to_fp16.v
+1770191107 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int_array.v
+1770191107 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpto_int/fpto_int.v
+1768892835 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpmul/fpmul.v
+1770619148 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp_adder_rtl.v
+1770619148 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp32_adder_pipeline.v
+1770619148 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fpadd/fp16_adder_pipeline.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_adder_tree_8_inputs_pipeline_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/wallace_tree_8_inputs_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_unpacker_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_packer_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_normalizer_rounder_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/fp32_aligner_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree8to1/delay_align_8to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_adder_tree_final_pipeline_5to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/wallace_tree_5_inputs_5to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_unpacker_5to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_packer_5to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_normalizer_rounder_5to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp32addtree5to1/fp32_aligner_5to1.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/OPR.sv
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/IPR.sv
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp16_m.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/leading_zero_counter_fp32_m.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/common/full_adder.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16mul.v
+1768892834 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/fp16mul/fp16tofp32_multiplier.v
+1768892835 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16_array.v
+1768892835 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/int8tofp16/int8_to_fp16.v
+1770708328 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/intadd.v
+1770708328 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32.v
+1770708328 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add32_comb.v
+1770708328 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8.v
+1770708328 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/intadd/add8_comb.v
+1770111070 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/user_register.v
+1770111070 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/user_register/bank_sram.v
+1770283727 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/RtoVR/RtoVR.v
+1749203793 /tools/synopsys/vcs/T-2022.06/include/cm_vcsd.tab
+1749200794 /tools/synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+1749203840 /tools/synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
+4
+1749203835 /tools/synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so
+1749203839 /tools/synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so
+1749203840 /tools/synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so
+1749203839 /tools/synopsys/vcs/T-2022.06/linux64/lib/libvfs.so
+1772521099 simv.daidir
+-1 partitionlib

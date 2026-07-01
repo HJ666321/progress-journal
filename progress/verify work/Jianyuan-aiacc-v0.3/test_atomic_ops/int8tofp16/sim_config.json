@@ -1,0 +1,43 @@
+{
+  "name": "test_atomic_int8tofp16",
+  "phase": 1,
+  "phase_name": "atomic_int8tofp16",
+  "inputs": {
+    "in": {
+      "bank": 0,
+      "shape": [
+        16
+      ],
+      "dtype": "INT8"
+    }
+  },
+  "outputs": {
+    "out": {
+      "bank": 2,
+      "shape": [
+        16
+      ],
+      "dtype": "FP16"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "rtovr-17": "iq_rtovr-17.hex",
+    "int8tofp16": "iq_int8tofp16.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "rtovr-36": "iq_rtovr-36.hex",
+    "ur-w0": "iq_ur-w0.hex",
+    "ur-w1": "iq_ur-w1.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex"
+  },
+  "settings": {
+    "max_cycles": 82,
+    "output_banks": [
+      2
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

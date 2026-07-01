@@ -1,0 +1,39 @@
+{
+  "name": "test_atomic_int8tofp16_case0001",
+  "phase": 1,
+  "phase_name": "atomic_int8tofp16_case0001",
+  "inputs": {},
+  "outputs": {
+    "out_start_bank": 2
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "rtovr-17": "iq_rtovr-17.hex",
+    "rtovr-18": "iq_rtovr-18.hex",
+    "int8tofp16": "iq_int8tofp16.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "rtovr-36": "iq_rtovr-36.hex",
+    "rtovr-37": "iq_rtovr-37.hex",
+    "rtovr-38": "iq_rtovr-38.hex",
+    "ur-w0": "iq_ur-w0.hex",
+    "ur-w1": "iq_ur-w1.hex",
+    "ur-w2": "iq_ur-w2.hex",
+    "ur-w3": "iq_ur-w3.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex",
+    "1": "ur_data/bank1.hex"
+  },
+  "settings": {
+    "max_cycles": 54,
+    "output_banks": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

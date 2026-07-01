@@ -1,0 +1,911 @@
+Cycle_0:
+  UR-R0:
+    logical_op: UR-R0
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 0
+      INC: 1
+      LOOPS: 0
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_x_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 0
+Cycle_1:
+  RTOVR-3:
+    logical_op: RTOVR-3
+    fields:
+      dest_port: 3
+      VALID: 1
+      SEL: 30
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_x_vec
+    outputs:
+    - ElemWise_exp_rt_x_p3_vec
+    attrs:
+      dest_port: 3
+      VALID: 1
+      SEL: 30
+Cycle_2:
+  UR-R1:
+    logical_op: UR-R1
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 6
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c7_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 6
+Cycle_3:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 31
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c7_vec
+    outputs:
+    - ElemWise_exp_rt_c7_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 31
+Cycle_4:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_c7_p4_vec
+    outputs:
+    - ElemWise_exp_m1_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+  UR-R2:
+    logical_op: UR-R2
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c6_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 3
+Cycle_5:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 32
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c6_vec
+    outputs:
+    - ElemWise_exp_rt_c6_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 32
+Cycle_8:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m1_vec
+    outputs:
+    - ElemWise_exp_rt_m1_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_9:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m1_p5_vec
+    - ElemWise_exp_rt_c6_p6_vec
+    outputs:
+    - ElemWise_exp_acc1_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+  UR-R3:
+    logical_op: UR-R3
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 7
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c5_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 7
+Cycle_11:
+  UR-R0:
+    logical_op: UR-R0
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 2
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c0_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 2
+Cycle_13:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_acc1_vec
+    outputs:
+    - ElemWise_exp_rt_acc1_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+Cycle_14:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_acc1_p4_vec
+    outputs:
+    - ElemWise_exp_m2_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_15:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 33
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c5_vec
+    outputs:
+    - ElemWise_exp_rt_c5_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 33
+Cycle_18:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m2_vec
+    outputs:
+    - ElemWise_exp_rt_m2_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_19:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m2_p5_vec
+    - ElemWise_exp_rt_c5_p6_vec
+    outputs:
+    - ElemWise_exp_acc2_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+  UR-R4:
+    logical_op: UR-R4
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 9
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c4_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 9
+Cycle_23:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_acc2_vec
+    outputs:
+    - ElemWise_exp_rt_acc2_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+Cycle_24:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_acc2_p4_vec
+    outputs:
+    - ElemWise_exp_m3_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_25:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 34
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c4_vec
+    outputs:
+    - ElemWise_exp_rt_c4_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 34
+Cycle_28:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m3_vec
+    outputs:
+    - ElemWise_exp_rt_m3_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_29:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m3_p5_vec
+    - ElemWise_exp_rt_c4_p6_vec
+    outputs:
+    - ElemWise_exp_acc3_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+  UR-R5:
+    logical_op: UR-R5
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 8
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c3_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 8
+Cycle_33:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_acc3_vec
+    outputs:
+    - ElemWise_exp_rt_acc3_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+Cycle_34:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_acc3_p4_vec
+    outputs:
+    - ElemWise_exp_m4_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_35:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 35
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c3_vec
+    outputs:
+    - ElemWise_exp_rt_c3_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 35
+Cycle_38:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m4_vec
+    outputs:
+    - ElemWise_exp_rt_m4_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_39:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m4_p5_vec
+    - ElemWise_exp_rt_c3_p6_vec
+    outputs:
+    - ElemWise_exp_acc4_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+  UR-R6:
+    logical_op: UR-R6
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c2_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 4
+Cycle_43:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_acc4_vec
+    outputs:
+    - ElemWise_exp_rt_acc4_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+Cycle_44:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_acc4_p4_vec
+    outputs:
+    - ElemWise_exp_m5_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_45:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 36
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c2_vec
+    outputs:
+    - ElemWise_exp_rt_c2_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 36
+Cycle_48:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m5_vec
+    outputs:
+    - ElemWise_exp_rt_m5_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_49:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m5_p5_vec
+    - ElemWise_exp_rt_c2_p6_vec
+    outputs:
+    - ElemWise_exp_acc5_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+  UR-R7:
+    logical_op: UR-R7
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 5
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_exp_c1_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 5
+Cycle_53:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_acc5_vec
+    outputs:
+    - ElemWise_exp_rt_acc5_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+Cycle_54:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_acc5_p4_vec
+    outputs:
+    - ElemWise_exp_m6_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_55:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 37
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c1_vec
+    outputs:
+    - ElemWise_exp_rt_c1_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 37
+Cycle_58:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m6_vec
+    outputs:
+    - ElemWise_exp_rt_m6_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_59:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m6_p5_vec
+    - ElemWise_exp_rt_c1_p6_vec
+    outputs:
+    - ElemWise_exp_acc6_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+Cycle_63:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_acc6_vec
+    outputs:
+    - ElemWise_exp_rt_acc6_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 4
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 30
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_c0_vec
+    outputs:
+    - ElemWise_exp_rt_c0_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 30
+Cycle_64:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_x_p3_vec
+    - ElemWise_exp_rt_acc6_p4_vec
+    outputs:
+    - ElemWise_exp_m7_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_68:
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_m7_vec
+    outputs:
+    - ElemWise_exp_rt_m7_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 3
+Cycle_69:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_rt_m7_p5_vec
+    - ElemWise_exp_rt_c0_p6_vec
+    outputs:
+    - ElemWise_exp_y_w_vec
+    attrs:
+      VALID: 1
+      SUB: 0
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+Cycle_73:
+  RTOVR-38:
+    logical_op: RTOVR-38
+    fields:
+      dest_port: 38
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_y_w_vec
+    outputs:
+    - ElemWise_exp_wdata_vec
+    attrs:
+      dest_port: 38
+      VALID: 1
+      SEL: 4
+Cycle_74:
+  UR-W0:
+    logical_op: UR-W0
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 1
+      INC: 1
+      LOOPS: 0
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_exp_wdata_vec
+    outputs: []
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 1

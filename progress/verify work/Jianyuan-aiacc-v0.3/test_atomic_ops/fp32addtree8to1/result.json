@@ -1,0 +1,11 @@
+{
+  "unit": "fp32addtree8to1",
+  "status": "FAIL",
+  "length": 4,
+  "cycles": 19,
+  "max_abs_error": 4.215424060821533,
+  "mean_abs_error": 0.5062764883041382,
+  "max_rel_error": 3.962810516357422,
+  "duration_ms": 77.70252227783203,
+  "unit_dir": "test_atomic_ops/fp32addtree8to1"
+}

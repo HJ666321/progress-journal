@@ -1,0 +1,11 @@
+{
+  "unit": "int8tofp16",
+  "status": "PASS",
+  "length": 16,
+  "cycles": 13,
+  "max_abs_error": 0.0,
+  "mean_abs_error": 0.0,
+  "max_rel_error": 0.0,
+  "duration_ms": 53.93671989440918,
+  "unit_dir": "test_atomic_ops/int8tofp16"
+}

@@ -1,0 +1,8 @@
+Successfully generated 2 test cases.
+
+Test Case Summary:
+Case            | Input  | Output
+----------------------------------------
+fpmul_case001   | FP16   | FP16  
+fpmul_case004   | FP32   | FP32  
+----------------------------------------

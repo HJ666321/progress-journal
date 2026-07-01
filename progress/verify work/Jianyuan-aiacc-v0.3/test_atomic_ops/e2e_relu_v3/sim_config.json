@@ -1,0 +1,174 @@
+{
+    "name": "e2e_relu_v3",
+    "max_cycles": 22,
+    "iq_init": {
+        "ur-r0": "smc_0/iq_ur-r0.hex",
+        "ur-r1": "smc_0/iq_ur-r1.hex",
+        "rtovr-5": "smc_0/iq_rtovr-5.hex",
+        "rtovr-6": "smc_0/iq_rtovr-6.hex",
+        "fpadd": "smc_0/iq_fpadd.hex",
+        "rtovr-13": "smc_0/iq_rtovr-13.hex",
+        "rtovr-11": "smc_0/iq_rtovr-11.hex",
+        "rtovr-12": "smc_0/iq_rtovr-12.hex",
+        "logic": "smc_0/iq_logic.hex",
+        "rtovr-38": "smc_0/iq_rtovr-38.hex",
+        "ur-w0": "smc_0/iq_ur-w0.hex"
+    },
+    "ur_init": {
+        "4": "smc_0/ur_data/bank4.hex",
+        "1": "smc_0/ur_data/bank1.hex",
+        "0": "smc_0/ur_data/bank0.hex"
+    },
+    "tensors": [
+        {
+            "name": "X",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "input"
+        },
+        {
+            "name": "Y",
+            "bank": 4,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "output"
+        },
+        {
+            "name": "ElemWise_relu_const_zero",
+            "bank": 1,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_x_cmp_vec",
+            "bank": 2,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_x_sel_vec",
+            "bank": 3,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_zero_vec",
+            "bank": 5,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_zero_r1_vec",
+            "bank": 6,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_rt_zero_p6_vec",
+            "bank": 7,
+            "addr": 0,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_rt_zero_r1_p12_vec",
+            "bank": 1,
+            "addr": 1,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_rt_x_cmp_p5_vec",
+            "bank": 0,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_st_dummy_vec",
+            "bank": 2,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_rt_x_sel_p11_vec",
+            "bank": 3,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_rt_st_dummy_p13_vec",
+            "bank": 4,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_y_w_vec",
+            "bank": 5,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_relu_wdata_vec",
+            "bank": 6,
+            "addr": 4,
+            "shape": [
+                16
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        }
+    ]
+}

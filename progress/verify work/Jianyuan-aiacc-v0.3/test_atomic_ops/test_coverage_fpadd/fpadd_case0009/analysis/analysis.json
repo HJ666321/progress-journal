@@ -1,0 +1,10 @@
+{
+  "total_instructions": 7,
+  "valid_instructions": 7,
+  "utilization": 0.7777777777777778,
+  "active_cycles": 7,
+  "idle_cycles": 2,
+  "total_cycles": 9,
+  "first_idle": null,
+  "gaps_count": 1
+}

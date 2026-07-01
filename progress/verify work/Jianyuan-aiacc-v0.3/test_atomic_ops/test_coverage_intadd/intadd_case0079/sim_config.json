@@ -1,0 +1,54 @@
+{
+  "name": "test_atomic_intadd_case0079",
+  "phase": 1,
+  "phase_name": "atomic_intadd_case0079",
+  "inputs": {
+    "in0": {
+      "bank": 0,
+      "shape": [
+        1
+      ],
+      "dtype": "INT128"
+    },
+    "in1": {
+      "bank": 1,
+      "shape": [
+        1
+      ],
+      "dtype": "INT128"
+    }
+  },
+  "outputs": {
+    "out0": {
+      "bank": 3,
+      "shape": [
+        1
+      ],
+      "dtype": "INT128"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "rtovr-0": "iq_rtovr-0.hex",
+    "rtovr-1": "iq_rtovr-1.hex",
+    "intadd": "iq_intadd.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "ur-w0": "iq_ur-w0.hex",
+    "rtovr-36": "iq_rtovr-36.hex",
+    "ur-w1": "iq_ur-w1.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex",
+    "1": "ur_data/bank1.hex",
+    "2": "ur_data/bank2.hex"
+  },
+  "settings": {
+    "max_cycles": 164,
+    "output_banks": [
+      3
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

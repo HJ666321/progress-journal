@@ -1,0 +1,265 @@
+{
+    "name": "e2e_reciprocal_nr2",
+    "max_cycles": 42,
+    "iq_init": {
+        "ur-r0": "smc_0/iq_ur-r0.hex",
+        "ur-r1": "smc_0/iq_ur-r1.hex",
+        "rtovr-3": "smc_0/iq_rtovr-3.hex",
+        "rtovr-4": "smc_0/iq_rtovr-4.hex",
+        "fpmul": "smc_0/iq_fpmul.hex",
+        "ur-r2": "smc_0/iq_ur-r2.hex",
+        "rtovr-5": "smc_0/iq_rtovr-5.hex",
+        "rtovr-6": "smc_0/iq_rtovr-6.hex",
+        "fpadd": "smc_0/iq_fpadd.hex",
+        "rtovr-38": "smc_0/iq_rtovr-38.hex",
+        "ur-w0": "smc_0/iq_ur-w0.hex"
+    },
+    "ur_init": {
+        "4": "smc_0/ur_data/bank4.hex",
+        "1": "smc_0/ur_data/bank1.hex",
+        "0": "smc_0/ur_data/bank0.hex",
+        "2": "smc_0/ur_data/bank2.hex"
+    },
+    "tensors": [
+        {
+            "name": "X",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "input"
+        },
+        {
+            "name": "Y0",
+            "bank": 1,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "input"
+        },
+        {
+            "name": "C",
+            "bank": 4,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "output"
+        },
+        {
+            "name": "ElemWise_reciprocal_const_c2",
+            "bank": 2,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_x_vec",
+            "bank": 3,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_y0_vec",
+            "bank": 5,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_c2_vec",
+            "bank": 6,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_x_r1_vec",
+            "bank": 7,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_c2_p5_vec",
+            "bank": 0,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_x_p3_vec",
+            "bank": 1,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_y0_p4_vec",
+            "bank": 2,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_t1_vec",
+            "bank": 3,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_t1_p6_vec",
+            "bank": 4,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_t2_vec",
+            "bank": 5,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_t2_p3_vec",
+            "bank": 6,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_y1_vec",
+            "bank": 7,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_x_r1_p3_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_y1_p4_vec",
+            "bank": 1,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_t3_vec",
+            "bank": 2,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_t3_p6_vec",
+            "bank": 3,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_t4_vec",
+            "bank": 4,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_rt_t4_p3_vec",
+            "bank": 5,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_y_w_vec",
+            "bank": 6,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_reciprocal_wdata_vec",
+            "bank": 7,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        }
+    ]
+}

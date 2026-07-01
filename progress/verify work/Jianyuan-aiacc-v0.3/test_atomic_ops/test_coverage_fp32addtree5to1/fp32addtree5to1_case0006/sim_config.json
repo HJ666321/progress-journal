@@ -1,0 +1,85 @@
+{
+  "name": "test_atomic_fp32addtree5to1_case0006",
+  "phase": 1,
+  "phase_name": "atomic_fp32addtree5to1_case0006",
+  "inputs": {
+    "bank0": {
+      "bank": 0,
+      "shape": [
+        2
+      ],
+      "dtype": "RAW"
+    },
+    "bank1": {
+      "bank": 1,
+      "shape": [
+        2
+      ],
+      "dtype": "RAW"
+    },
+    "bank2": {
+      "bank": 2,
+      "shape": [
+        2
+      ],
+      "dtype": "RAW"
+    },
+    "bank3": {
+      "bank": 3,
+      "shape": [
+        2
+      ],
+      "dtype": "RAW"
+    }
+  },
+  "outputs": {
+    "out0": {
+      "bank": 4,
+      "shape": [
+        1
+      ],
+      "dtype": "RAW"
+    },
+    "out1": {
+      "bank": 5,
+      "shape": [
+        1
+      ],
+      "dtype": "RAW"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "ur-r2": "iq_ur-r2.hex",
+    "ur-r3": "iq_ur-r3.hex",
+    "rtovr-24": "iq_rtovr-24.hex",
+    "rtovr-25": "iq_rtovr-25.hex",
+    "rtovr-26": "iq_rtovr-26.hex",
+    "rtovr-27": "iq_rtovr-27.hex",
+    "rtovr-28": "iq_rtovr-28.hex",
+    "rtovr-29": "iq_rtovr-29.hex",
+    "rtovr-30": "iq_rtovr-30.hex",
+    "rtovr-31": "iq_rtovr-31.hex",
+    "fp32addtree5to1": "iq_fp32addtree5to1.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "rtovr-36": "iq_rtovr-36.hex",
+    "ur-w0": "iq_ur-w0.hex",
+    "ur-w1": "iq_ur-w1.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex",
+    "1": "ur_data/bank1.hex",
+    "2": "ur_data/bank2.hex",
+    "3": "ur_data/bank3.hex"
+  },
+  "settings": {
+    "max_cycles": 50,
+    "output_banks": [
+      4,
+      5
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

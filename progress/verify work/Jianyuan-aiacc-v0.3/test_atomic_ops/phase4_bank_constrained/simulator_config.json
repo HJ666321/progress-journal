@@ -1,0 +1,73 @@
+{
+  "operator": "add",
+  "name": "torch.add",
+  "phase": 4,
+  "phase_name": "bank_constrained",
+  "inputs": {
+    "b": {
+      "shape": [
+        4
+      ],
+      "dtype": "FP32",
+      "bank": 0
+    },
+    "c": {
+      "shape": [
+        4,
+        1
+      ],
+      "dtype": "FP32",
+      "bank": 1
+    }
+  },
+  "outputs": {
+    "out": {
+      "shape": [
+        4,
+        4
+      ],
+      "dtype": "FP32",
+      "bank": 3
+    }
+  },
+  "params": {
+    "alpha": 10.0
+  },
+  "iq_init": {
+    "rtovr-3": "iq_rtovr-3.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "ur-r0": "iq_ur-r0.hex",
+    "rtovr-4": "iq_rtovr-4.hex",
+    "fpmul": "iq_fpmul.hex",
+    "ur-r2": "iq_ur-r2.hex",
+    "rtovr-5": "iq_rtovr-5.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "rtovr-6": "iq_rtovr-6.hex",
+    "fpadd": "iq_fpadd.hex",
+    "ur-w0": "iq_ur-w0.hex"
+  },
+  "ur_init": {
+    "0": "../ur_data/bank0_b.hex",
+    "1": "../ur_data/bank1_c.hex",
+    "2": "../ur_data/bank2_alpha.hex"
+  },
+  "settings": {
+    "max_cycles": 500
+  },
+  "microcode_dir": "output_hex/phase4_bank_constrained",
+  "stats": {
+    "total_instructions": 46,
+    "valid_instructions": 46,
+    "iq_counts": {
+      "UR": 17,
+      "RtoVR": 21,
+      "FPMUL": 4,
+      "FPADD": 4
+    },
+    "active_cycles": 8,
+    "idle_cycles": 0,
+    "utilization": 1.0,
+    "num_gaps": 0,
+    "first_idle_cycle": null
+  }
+}

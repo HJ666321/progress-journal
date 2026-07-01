@@ -1,0 +1,16 @@
+dut.u_smc.u_user_register.bram_bank_inst[0].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/bank0.hex
+dut.u_smc.u_user_register.bram_bank_inst[1].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/bank1.hex
+dut.u_smc.u_user_register.bram_bank_inst[2].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/bank2.hex
+dut.u_smc.u_user_register.bram_bank_inst[4].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/bank4.hex
+inst_mem_logic /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_logic.hex
+inst_mem_rtovr[11] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_rtovr-11.hex
+inst_mem_rtovr[12] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_rtovr-12.hex
+inst_mem_rtovr[13] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_rtovr-13.hex
+inst_mem_rtovr[35] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_rtovr-35.hex
+inst_mem_ur_rdata_0 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_ur-r0.hex
+inst_mem_ur_rdata_1 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_ur-r1.hex
+inst_mem_ur_rdata_2 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_ur-r2.hex
+inst_mem_ur_wdata_0 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/iq_ur-w0.hex
+dut.u_smc.u_user_register.bram_bank_inst[0].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/ur_data/bank0.hex
+dut.u_smc.u_user_register.bram_bank_inst[1].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/ur_data/bank1.hex
+dut.u_smc.u_user_register.bram_bank_inst[4].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/test_coverage_logic/logic_case0015/ur_data/bank4.hex

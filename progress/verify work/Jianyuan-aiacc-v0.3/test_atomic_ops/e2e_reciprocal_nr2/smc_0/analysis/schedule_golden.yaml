@@ -1,0 +1,402 @@
+Cycle_0:
+  UR-R0:
+    logical_op: UR-R0
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 0
+      INC: 1
+      LOOPS: 0
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_reciprocal_x_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 0
+  UR-R1:
+    logical_op: UR-R1
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 1
+      ADDR: 0
+      INC: 1
+      LOOPS: 0
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_reciprocal_y0_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 1
+      ADDR: 0
+  UR-R2:
+    logical_op: UR-R2
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 2
+      ADDR: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_reciprocal_c2_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 2
+      ADDR: 0
+Cycle_1:
+  RTOVR-3:
+    logical_op: RTOVR-3
+    fields:
+      dest_port: 3
+      VALID: 1
+      SEL: 30
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_x_vec
+    outputs:
+    - ElemWise_reciprocal_rt_x_p3_vec
+    attrs:
+      dest_port: 3
+      VALID: 1
+      SEL: 30
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 31
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_y0_vec
+    outputs:
+    - ElemWise_reciprocal_rt_y0_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 31
+  RTOVR-5:
+    logical_op: RTOVR-5
+    fields:
+      dest_port: 5
+      VALID: 1
+      SEL: 32
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_c2_vec
+    outputs:
+    - ElemWise_reciprocal_rt_c2_p5_vec
+    attrs:
+      dest_port: 5
+      VALID: 1
+      SEL: 32
+Cycle_2:
+  UR-R0:
+    logical_op: UR-R0
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 0
+      INC: 1
+      LOOPS: 0
+      EMBED_LOOPS: 0
+    inputs: []
+    outputs:
+    - ElemWise_reciprocal_x_r1_vec
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 0
+      ADDR: 0
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_rt_x_p3_vec
+    - ElemWise_reciprocal_rt_y0_p4_vec
+    outputs:
+    - ElemWise_reciprocal_t1_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_6:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_t1_vec
+    outputs:
+    - ElemWise_reciprocal_rt_t1_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 3
+Cycle_7:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_rt_c2_p5_vec
+    - ElemWise_reciprocal_rt_t1_p6_vec
+    outputs:
+    - ElemWise_reciprocal_t2_vec
+    attrs:
+      VALID: 1
+      SUB: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+Cycle_11:
+  RTOVR-3:
+    logical_op: RTOVR-3
+    fields:
+      dest_port: 3
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_t2_vec
+    outputs:
+    - ElemWise_reciprocal_rt_t2_p3_vec
+    attrs:
+      dest_port: 3
+      VALID: 1
+      SEL: 4
+Cycle_12:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_rt_t2_p3_vec
+    - ElemWise_reciprocal_rt_y0_p4_vec
+    outputs:
+    - ElemWise_reciprocal_y1_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_13:
+  RTOVR-3:
+    logical_op: RTOVR-3
+    fields:
+      dest_port: 3
+      VALID: 1
+      SEL: 30
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_x_r1_vec
+    outputs:
+    - ElemWise_reciprocal_rt_x_r1_p3_vec
+    attrs:
+      dest_port: 3
+      VALID: 1
+      SEL: 30
+Cycle_16:
+  RTOVR-4:
+    logical_op: RTOVR-4
+    fields:
+      dest_port: 4
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_y1_vec
+    outputs:
+    - ElemWise_reciprocal_rt_y1_p4_vec
+    attrs:
+      dest_port: 4
+      VALID: 1
+      SEL: 3
+Cycle_17:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_rt_x_r1_p3_vec
+    - ElemWise_reciprocal_rt_y1_p4_vec
+    outputs:
+    - ElemWise_reciprocal_t3_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_21:
+  RTOVR-6:
+    logical_op: RTOVR-6
+    fields:
+      dest_port: 6
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_t3_vec
+    outputs:
+    - ElemWise_reciprocal_rt_t3_p6_vec
+    attrs:
+      dest_port: 6
+      VALID: 1
+      SEL: 3
+Cycle_22:
+  FPADD:
+    logical_op: FPADD
+    fields:
+      VALID: 1
+      SUB: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_rt_c2_p5_vec
+    - ElemWise_reciprocal_rt_t3_p6_vec
+    outputs:
+    - ElemWise_reciprocal_t4_vec
+    attrs:
+      VALID: 1
+      SUB: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      UPDATE_ST: 0
+Cycle_26:
+  RTOVR-3:
+    logical_op: RTOVR-3
+    fields:
+      dest_port: 3
+      VALID: 1
+      SEL: 4
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_t4_vec
+    outputs:
+    - ElemWise_reciprocal_rt_t4_p3_vec
+    attrs:
+      dest_port: 3
+      VALID: 1
+      SEL: 4
+Cycle_27:
+  FPMUL:
+    logical_op: FPMUL
+    fields:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_rt_t4_p3_vec
+    - ElemWise_reciprocal_rt_y1_p4_vec
+    outputs:
+    - ElemWise_reciprocal_y_w_vec
+    attrs:
+      VALID: 1
+      SRC_PREC: 1
+      DST_PREC: 1
+Cycle_31:
+  RTOVR-38:
+    logical_op: RTOVR-38
+    fields:
+      dest_port: 38
+      VALID: 1
+      SEL: 3
+      LOOPS: 0
+      INC: 1
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_y_w_vec
+    outputs:
+    - ElemWise_reciprocal_wdata_vec
+    attrs:
+      dest_port: 38
+      VALID: 1
+      SEL: 3
+Cycle_32:
+  UR-W0:
+    logical_op: UR-W0
+    fields:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 4
+      ADDR: 0
+      INC: 1
+      LOOPS: 0
+      EMBED_LOOPS: 0
+    inputs:
+    - ElemWise_reciprocal_wdata_vec
+    outputs: []
+    attrs:
+      word_offset: 0
+      elements: 4
+      VALID: 1
+      BANK: 4
+      ADDR: 0

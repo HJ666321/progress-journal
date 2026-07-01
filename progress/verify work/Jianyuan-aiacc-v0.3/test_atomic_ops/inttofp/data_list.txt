@@ -1,0 +1,6 @@
+inst_mem_inttofp /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/inttofp/iq_inttofp.hex
+inst_mem_rtovr[10] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/inttofp/iq_rtovr-10.hex
+inst_mem_rtovr[35] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/inttofp/iq_rtovr-35.hex
+inst_mem_ur_rdata_0 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/inttofp/iq_ur-r0.hex
+inst_mem_ur_wdata_0 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/inttofp/iq_ur-w0.hex
+dut.u_smc.u_user_register.bram_bank_inst[0].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/inttofp/ur_data/bank0.hex

@@ -1,0 +1,166 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Mar  3 01:58 2026
+
+ VCS Coverage Metrics Release T-2022.06_Full64 Copyright (c) 1991-2022 by Synopsys Inc.
+ucli% call \$fsdbDumpvars 0,tb_aiacc_top,"+all"
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/sim_output_aiacc_top/tb_aiacc_top.fsdb'
+*Verdi* : Begin traversing the scope (tb_aiacc_top), layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+ucli% call \$fsdbDumpMDA 0 "tb_aiacc_top"
+*Verdi* : Begin traversing the MDAs under scope (tb_aiacc_top), layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+ucli% call \$fsdbDumpSVA
+*Verdi* : Begin traversing the SVA assertions, layer (0).
+*Verdi* : End of traversing the SVA assertions.
+ucli% run 
+  [plusarg] MEM_DATA_SUBFOLDER = e2e_exp_taylor7
+  [plusarg] DATA_LIST_FILE = data_list.txt
+==================================================
+Starting AIACC Top Testbench
+  - Loading instructions to all smi_iq (except UR)
+  - SMI_IQ_AMOUNT = 64
+==================================================
+
+--- Loading from data_list file (/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/data_list.txt) ---
+  [data_list] inst_mem_fpadd <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_fpadd.hex
+  [data_list] inst_mem_fpmul <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_fpmul.hex
+  [data_list] inst_mem_rtovr[3] <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_rtovr-3.hex
+  [data_list] inst_mem_rtovr[38] <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_rtovr-38.hex
+  [data_list] inst_mem_rtovr[4] <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_rtovr-4.hex
+  [data_list] inst_mem_rtovr[5] <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_rtovr-5.hex
+  [data_list] inst_mem_rtovr[6] <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_rtovr-6.hex
+  [data_list] inst_mem_ur_rdata_0 <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_ur-r0.hex
+  [data_list] inst_mem_ur_rdata_1 <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_ur-r1.hex
+  [data_list] inst_mem_ur_rdata_2 <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_ur-r2.hex
+  [data_list] inst_mem_ur_rdata_3 <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_ur-r3.hex
+  [data_list] inst_mem_ur_wdata_0 <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/iq_ur-w0.hex
+  [data_list] dut.u_smc.u_user_register.bram_bank_inst[0].u_bank_sram.memory_array <- /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/smc_0/ur_data/bank0.hex
+  ID 0-13:  inst counts: intadd=0 fpadd=14 fpmul=14 ...
+  ID 14-17 UR-RDATA: 3,2,2,2; ID 18-21 UR-WDATA: 2,0,0,0
+Time=0: cru_intadd_o=0000, inst_valid=0
+
+--- Step 1: Write Instructions to All smi_iq (except UR) ---
+
+  Writing to FPMUL (ID 5): 14 instructions
+
+  Writing to FPADD (ID 6): 14 instructions
+
+  Writing to RtoVR-3 (SMI-IQ ID 27): 2 instructions
+    [RtoVR-3] Inst 1/2: SMI-IQ ID=27, wri_vld=1, wri_data=000008000000, wri_start=1, wri_end=0
+    [RtoVR-3] Inst 2/2: SMI-IQ ID=27, wri_vld=1, wri_data=80000000203d, wri_start=0, wri_end=1
+
+  Writing to RtoVR-4 (SMI-IQ ID 28): 14 instructions
+    [RtoVR-4] Inst 1/14: SMI-IQ ID=28, wri_vld=1, wri_data=000018000000, wri_start=1, wri_end=0
+    [RtoVR-4] Inst 2/14: SMI-IQ ID=28, wri_vld=1, wri_data=80000000203f, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 3/14: SMI-IQ ID=28, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 4/14: SMI-IQ ID=28, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 5/14: SMI-IQ ID=28, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 6/14: SMI-IQ ID=28, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 7/14: SMI-IQ ID=28, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 8/14: SMI-IQ ID=28, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 9/14: SMI-IQ ID=28, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 10/14: SMI-IQ ID=28, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 11/14: SMI-IQ ID=28, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 12/14: SMI-IQ ID=28, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 13/14: SMI-IQ ID=28, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-4] Inst 14/14: SMI-IQ ID=28, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=1
+
+  Writing to RtoVR-5 (SMI-IQ ID 29): 14 instructions
+    [RtoVR-5] Inst 1/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=1, wri_end=0
+    [RtoVR-5] Inst 2/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 3/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 4/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 5/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 6/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 7/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 8/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 9/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 10/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 11/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 12/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 13/14: SMI-IQ ID=29, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-5] Inst 14/14: SMI-IQ ID=29, wri_vld=1, wri_data=800000002007, wri_start=0, wri_end=1
+
+  Writing to RtoVR-6 (SMI-IQ ID 30): 14 instructions
+    [RtoVR-6] Inst 1/14: SMI-IQ ID=30, wri_vld=1, wri_data=000028000000, wri_start=1, wri_end=0
+    [RtoVR-6] Inst 2/14: SMI-IQ ID=30, wri_vld=1, wri_data=800000002041, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 3/14: SMI-IQ ID=30, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 4/14: SMI-IQ ID=30, wri_vld=1, wri_data=800000002043, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 5/14: SMI-IQ ID=30, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 6/14: SMI-IQ ID=30, wri_vld=1, wri_data=800000002045, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 7/14: SMI-IQ ID=30, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 8/14: SMI-IQ ID=30, wri_vld=1, wri_data=800000002047, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 9/14: SMI-IQ ID=30, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 10/14: SMI-IQ ID=30, wri_vld=1, wri_data=800000002049, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 11/14: SMI-IQ ID=30, wri_vld=1, wri_data=000040000000, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 12/14: SMI-IQ ID=30, wri_vld=1, wri_data=80000000204b, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 13/14: SMI-IQ ID=30, wri_vld=1, wri_data=000030000000, wri_start=0, wri_end=0
+    [RtoVR-6] Inst 14/14: SMI-IQ ID=30, wri_vld=1, wri_data=80000000203d, wri_start=0, wri_end=1
+
+  Writing to RtoVR-38 (SMI-IQ ID 62): 2 instructions
+    [RtoVR-38] Inst 1/2: SMI-IQ ID=62, wri_vld=1, wri_data=000248000000, wri_start=1, wri_end=0
+    [RtoVR-38] Inst 2/2: SMI-IQ ID=62, wri_vld=1, wri_data=800000002009, wri_start=0, wri_end=1
+
+  Writing to UR-RDATA-0 (ID 14): 3 instructions
+
+  Writing to UR-RDATA-1 (ID 15): 2 instructions
+
+  Writing to UR-RDATA-2 (ID 16): 2 instructions
+
+  Writing to UR-RDATA-3 (ID 17): 2 instructions
+
+  Writing to UR-WDATA-0 (ID 18): 2 instructions
+
+--- All instructions written to smi_iq (including UR) ---
+
+--- Step 2: Start Reading from All Written smi_iq ---
+  Starting read from FPMUL (ID 5)
+  Starting read from FPADD (ID 6)
+  Starting read from RtoVR-3 (SMI-IQ ID 27)
+  Starting read from RtoVR-4 (SMI-IQ ID 28)
+  Starting read from RtoVR-5 (SMI-IQ ID 29)
+  Starting read from RtoVR-6 (SMI-IQ ID 30)
+  Starting read from RtoVR-38 (SMI-IQ ID 62)
+  Starting read from UR-RDATA-0 (ID 14)
+  Starting read from UR-RDATA-1 (ID 15)
+  Starting read from UR-RDATA-2 (ID 16)
+  Starting read from UR-RDATA-3 (ID 17)
+  Starting read from UR-WDATA-0 (ID 18)
+
+--- All read starts issued ---
+
+==================================================
+Test Complete
+==================================================
+  UR dump 路径: /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7
+
+==================================================
+Files Dumped to:
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank0.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank1.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank2.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank3.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank4.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank5.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank6.hex
+  /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/e2e_exp_taylor7/ur_result_e2e_exp_taylor7_bank7.hex
+==================================================
+$finish called from file "/datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/tb_aiacc_top.v", line 1728.
+$finish at simulation time              2236000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+
+ Coverage status: End of All Coverages ...
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2236000 ps
+CPU Time:      1.250 seconds;       Data structure size:   6.0Mb
+Tue Mar  3 01:58:29 2026

@@ -1,0 +1,587 @@
+{
+    "name": "e2e_exp_taylor7",
+    "max_cycles": 84,
+    "iq_init": {
+        "ur-r0": "smc_0/iq_ur-r0.hex",
+        "ur-r1": "smc_0/iq_ur-r1.hex",
+        "rtovr-4": "smc_0/iq_rtovr-4.hex",
+        "rtovr-3": "smc_0/iq_rtovr-3.hex",
+        "fpmul": "smc_0/iq_fpmul.hex",
+        "ur-r2": "smc_0/iq_ur-r2.hex",
+        "rtovr-5": "smc_0/iq_rtovr-5.hex",
+        "rtovr-6": "smc_0/iq_rtovr-6.hex",
+        "fpadd": "smc_0/iq_fpadd.hex",
+        "ur-r3": "smc_0/iq_ur-r3.hex",
+        "ur-r4": "smc_0/iq_ur-r4.hex",
+        "ur-r5": "smc_0/iq_ur-r5.hex",
+        "ur-r6": "smc_0/iq_ur-r6.hex",
+        "ur-r7": "smc_0/iq_ur-r7.hex",
+        "rtovr-38": "smc_0/iq_rtovr-38.hex",
+        "ur-w0": "smc_0/iq_ur-w0.hex"
+    },
+    "ur_init": {
+        "0": "smc_0/ur_data/bank0.hex"
+    },
+    "tensors": [
+        {
+            "name": "X",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "input"
+        },
+        {
+            "name": "Y",
+            "bank": 0,
+            "addr": 1,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "output"
+        },
+        {
+            "name": "ElemWise_exp_const_c0",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c6",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c2",
+            "bank": 0,
+            "addr": 4,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c1",
+            "bank": 0,
+            "addr": 5,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c7",
+            "bank": 0,
+            "addr": 6,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c5",
+            "bank": 0,
+            "addr": 7,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c3",
+            "bank": 0,
+            "addr": 8,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_const_c4",
+            "bank": 0,
+            "addr": 9,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_x_vec",
+            "bank": 0,
+            "addr": 10,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c7_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c5_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c4_vec",
+            "bank": 0,
+            "addr": 4,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c3_vec",
+            "bank": 0,
+            "addr": 5,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c2_vec",
+            "bank": 0,
+            "addr": 6,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c1_vec",
+            "bank": 0,
+            "addr": 7,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_c0_vec",
+            "bank": 0,
+            "addr": 8,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_x_p3_vec",
+            "bank": 0,
+            "addr": 9,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c7_p4_vec",
+            "bank": 0,
+            "addr": 10,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m1_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m1_p5_vec",
+            "bank": 0,
+            "addr": 10,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c6_p6_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_acc1_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_acc1_p4_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m2_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m2_p5_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c5_p6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_acc2_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_acc2_p4_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m3_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m3_p5_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c4_p6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_acc3_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_acc3_p4_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m4_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m4_p5_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c3_p6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_acc4_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_acc4_p4_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m5_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m5_p5_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c2_p6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_acc5_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_acc5_p4_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m6_p5_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c1_p6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_acc6_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_acc6_p4_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_m7_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_m7_p5_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_rt_c0_p6_vec",
+            "bank": 0,
+            "addr": 2,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_y_w_vec",
+            "bank": 0,
+            "addr": 3,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        },
+        {
+            "name": "ElemWise_exp_wdata_vec",
+            "bank": 0,
+            "addr": 0,
+            "shape": [
+                4
+            ],
+            "dtype": "float32",
+            "role": "internal"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "test_atomic_fpadd_case0008",
+  "phase": 1,
+  "phase_name": "atomic_fpadd_case0008",
+  "inputs": {
+    "in0": {
+      "bank": 0,
+      "shape": [
+        16
+      ],
+      "dtype": "FP32"
+    },
+    "in1": {
+      "bank": 1,
+      "shape": [
+        16
+      ],
+      "dtype": "FP32"
+    }
+  },
+  "outputs": {
+    "out": {
+      "bank": 2,
+      "shape": [
+        16
+      ],
+      "dtype": "FP32"
+    },
+    "st": {
+      "bank": 5,
+      "shape": [
+        16
+      ],
+      "dtype": "INT32"
+    }
+  },
+  "iq_init": {
+    "ur-r0": "iq_ur-r0.hex",
+    "ur-r1": "iq_ur-r1.hex",
+    "rtovr-5": "iq_rtovr-5.hex",
+    "rtovr-6": "iq_rtovr-6.hex",
+    "fpadd": "iq_fpadd.hex",
+    "rtovr-35": "iq_rtovr-35.hex",
+    "ur-w0": "iq_ur-w0.hex",
+    "rtovr-36": "iq_rtovr-36.hex",
+    "ur-w1": "iq_ur-w1.hex"
+  },
+  "ur_init": {
+    "0": "ur_data/bank0.hex",
+    "1": "ur_data/bank1.hex"
+  },
+  "settings": {
+    "max_cycles": 132,
+    "output_banks": [
+      2,
+      5
+    ],
+    "early_termination": true
+  },
+  "microcode_dir": "."
+}

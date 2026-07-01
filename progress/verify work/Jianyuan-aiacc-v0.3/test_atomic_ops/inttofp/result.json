@@ -1,0 +1,11 @@
+{
+  "unit": "inttofp",
+  "status": "PASS",
+  "length": 16,
+  "cycles": 16,
+  "max_abs_error": 0.0,
+  "mean_abs_error": 0.0,
+  "max_rel_error": 0.0,
+  "duration_ms": 51.787376403808594,
+  "unit_dir": "test_atomic_ops/inttofp"
+}

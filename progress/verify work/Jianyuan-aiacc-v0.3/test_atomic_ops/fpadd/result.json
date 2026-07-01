@@ -1,0 +1,11 @@
+{
+  "unit": "fpadd",
+  "status": "PASS",
+  "length": 16,
+  "cycles": 19,
+  "max_abs_error": 0.0,
+  "mean_abs_error": 0.0,
+  "max_rel_error": 0.0,
+  "duration_ms": 73.72069358825684,
+  "unit_dir": "test_atomic_ops/fpadd"
+}

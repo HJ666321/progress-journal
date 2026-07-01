@@ -1,0 +1,17 @@
+inst_mem_fp32addtree5to1 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_fp32addtree5to1.hex
+inst_mem_rtovr[24] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_rtovr-24.hex
+inst_mem_rtovr[25] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_rtovr-25.hex
+inst_mem_rtovr[26] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_rtovr-26.hex
+inst_mem_rtovr[27] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_rtovr-27.hex
+inst_mem_rtovr[35] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_rtovr-35.hex
+inst_mem_rtovr[36] /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_rtovr-36.hex
+inst_mem_ur_rdata_0 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_ur-r0.hex
+inst_mem_ur_rdata_1 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_ur-r1.hex
+inst_mem_ur_rdata_2 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_ur-r2.hex
+inst_mem_ur_rdata_3 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_ur-r3.hex
+inst_mem_ur_wdata_0 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_ur-w0.hex
+inst_mem_ur_wdata_1 /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/iq_ur-w1.hex
+dut.u_smc.u_user_register.bram_bank_inst[0].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/ur_data/bank0.hex
+dut.u_smc.u_user_register.bram_bank_inst[1].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/ur_data/bank1.hex
+dut.u_smc.u_user_register.bram_bank_inst[2].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/ur_data/bank2.hex
+dut.u_smc.u_user_register.bram_bank_inst[3].u_bank_sram.memory_array /datahdd/qinglongv200/xuedong/AIACC/Hongjun-main/aiacc/cells/A_Integration/test_atomic_ops/fp32addtree5to1/ur_data/bank3.hex
